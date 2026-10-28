@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "6ab5c7f3-869c-baac-373b-4ff01aac974d",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "Parry",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Resources\\BuiltinResource\\assets\\jsAssets\\default.animTex",
+    "references": [
+      {
+        "guid": "0e36db0f-a130-c6ac-1e52-54d0494535d9",
+        "propertyName": "textureSequence"
+      }
+    ]
+  }
+]

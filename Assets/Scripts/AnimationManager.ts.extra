@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "77b99659-f892-e96e-38d0-8a9671e0a789",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "AnimationManager",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\AnimationManager.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

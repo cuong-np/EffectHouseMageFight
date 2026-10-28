@@ -1,0 +1,48 @@
+%YAML 1.1
+--- !TextureDelegate &1
+name: !<str> WaterBall_Projectile
+guid: {a: 5583903185791713000, b: 15829776801759541146}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5105082824919302770, b: 16970084387389706372}
+  properties:
+    __class: Map
+    JSClassName: !<str> GifTextureProvider
+    fps: 16
+    gifAsset: {localId: 1, path: c6db667d-a922-6e4b-e8c8-2d993599150c--c6db667d-a922-6e4b-e8c8-2d993599150c.gifasset}
+    loopCount: -1
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: true
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1
+delegateData:
+  __class: Map

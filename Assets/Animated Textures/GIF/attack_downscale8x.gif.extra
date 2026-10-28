@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "9a8c13ba-21a1-a8bc-2d4e-aa21695d5e1e",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "attack_downscale8x",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\AI\\SpriteSheep\\output\\Mage\\attack_2026-10-25_13-20-17\\attack_downscale8x.gif",
+    "references": []
+  }
+]

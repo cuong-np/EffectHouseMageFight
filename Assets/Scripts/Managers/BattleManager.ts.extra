@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "d74ce5d6-47db-f2e7-1386-6e92f67c53e1",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "BattleManager",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\Managers\\BattleManager.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

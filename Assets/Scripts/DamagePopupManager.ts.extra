@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "6a818079-812e-dd3b-3a98-abf226db98cc",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "DamagePopupManager",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\DamagePopupManager.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

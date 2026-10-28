@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "851c09f7-8ecd-f2a1-0f25-2939b1bb5c07",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "Mage_Hit",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "13ad522b-5e9e-b063-36b3-5e7fbdeab418",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

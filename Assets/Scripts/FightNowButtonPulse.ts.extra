@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "f5a86374-17ea-00d5-3a78-57f5e73db05f",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "FightNowButtonPulse",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\FightNowButtonPulse.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

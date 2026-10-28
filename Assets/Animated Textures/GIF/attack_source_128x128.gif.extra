@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "31144100-9cba-c68a-4870-86cf36e3ba1a",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "attack_source_128x128",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\GIF\\attack_source_128x128.gif",
+    "references": []
+  }
+]

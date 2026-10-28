@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "2a077aff-3a18-40f7-6890-7ae63585c202",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "WaterBall_Projectile",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "c6db667d-a922-6e4b-e8c8-2d993599150c",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

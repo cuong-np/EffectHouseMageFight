@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "00fe182f-436d-aa28-41c2-7d50646da713",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "SoundManager",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\SoundManager.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

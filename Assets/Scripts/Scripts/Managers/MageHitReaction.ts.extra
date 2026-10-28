@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "d867d1ce-a68d-5071-e994-003a9e347efc",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "MageHitReaction",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\Scripts\\Managers\\MageHitReaction.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

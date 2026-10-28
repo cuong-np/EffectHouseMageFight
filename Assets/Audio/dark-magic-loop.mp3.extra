@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "d0d77947-84b8-e2d9-c038-059bf06c51bc",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "dark-magic-loop",
+    "version": "0.1.0",
+    "rttiType": "AudioAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "mccState": "SUCCESS",
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\Downloads\\freesound_community-dark-magic-loop-47178.mp3",
+    "references": []
+  }
+]

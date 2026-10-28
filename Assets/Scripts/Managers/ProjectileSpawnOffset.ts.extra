@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "30a5925c-b4ed-1fe5-db04-70339ae57324",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "ProjectileSpawnOffset",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

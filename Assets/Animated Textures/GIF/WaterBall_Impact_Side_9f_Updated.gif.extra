@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "38bb31e9-ff3f-365f-1c53-f0185a494d6f",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "WaterBall_Impact_Side_9f_Updated",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\AppData\\Local\\Temp\\WaterBall_Impact_Side_9f_Updated.gif",
+    "references": []
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "3ef13d1e-3a7a-afcc-ff29-705b17620eb9",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "ting",
+    "version": "0.1.0",
+    "rttiType": "AudioAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "mccState": "SUCCESS",
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\Downloads\\ting.mp3",
+    "references": []
+  }
+]

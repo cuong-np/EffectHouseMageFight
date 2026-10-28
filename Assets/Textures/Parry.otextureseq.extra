@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "0e36db0f-a130-c6ac-1e52-54d0494535d9",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Parry",
+    "version": "0.2.0",
+    "rttiType": "TextureSequence",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Textures\\frame (1).otextureseq",
+    "references": []
+  }
+]

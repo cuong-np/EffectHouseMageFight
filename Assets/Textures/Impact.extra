@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "014223e0-65ab-a2b7-0190-db261cecf672",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Impact",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\AI\\SpriteSheep\\output\\WaterBall\\water_bullet_impact_16f\\sprite",
+    "references": []
+  }
+]

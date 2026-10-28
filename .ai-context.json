@@ -1,0 +1,3241 @@
+{
+  "version": 1,
+  "annotations": {
+    "f953a34b-e93c-7034-0650-5acaeb8da28b": {
+      "description": "Vertical illustrated moonlit forest scene with a centered dirt path, dense dark trees framing the sides, deep teal-blue night palette, and small glowing lights. Intended as a portrait background behind the user and Rouge.",
+      "userDescription": "Vertical illustrated moonlit forest scene with a centered dirt path, dense dark trees framing the sides, deep teal-blue night palette, and small glowing lights. Intended as a portrait background behind the user and Rouge.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "2642fe08c301ca77a6e78d365898f238",
+      "stale": false,
+      "updated": "2026-10-26T07:34:19.336Z"
+    },
+    "ef9bfcde-6e62-e51e-f0f2-662c60d111d1": {
+      "description": "Transparent 128x128 9-frame idle animation for Mage: a hooded blue-robed wizard holding a staff, intended as the right-side companion character in the forest scene.",
+      "userDescription": "Transparent 128x128 9-frame idle animation for Mage: a hooded blue-robed wizard holding a staff, intended as the right-side companion character in the forest scene.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T08:10:06.213Z"
+    },
+    "5f244cfb-0a69-8f29-c9dd-8748bd15e907": {
+      "description": "Transparent 128x128 GIF animation of Mage, a blue-robed hooded wizard holding a glowing staff, performing an attack. 16 frames; use for Mage's attack state.",
+      "userDescription": "Original 128x96 Mage attack GIF kept as an unused backup. BattleManager.attackTex now uses attack_source_128x128 assembled from the native SpriteSheep attack frames.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T16:30:18.965Z"
+    },
+    "6ed5fff5-c0b3-da49-43bc-a2592661eb3a": {
+      "description": "Transparent 128x128 GIF animation of Mage, a blue-robed hooded wizard holding a glowing staff, playing the death animation. 9 frames; use for Mage's dead state.",
+      "userDescription": "Transparent 128x128 GIF animation of Mage, a blue-robed hooded wizard holding a glowing staff, playing the death animation. 9 frames; use for Mage's dead state.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T09:30:16.235Z"
+    },
+    "09ef738b-6583-20e0-0760-1833ae209a50": {
+      "description": "Transparent 128x128 looping GIF animation of Mage, a blue-robed hooded wizard holding a glowing staff, using the defensive pose. 16 frames; use for Mage's defend state.",
+      "userDescription": "Transparent 128x128 looping GIF animation of Mage, a blue-robed hooded wizard holding a glowing staff, using the defensive pose. 16 frames; use for Mage's defend state.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T09:30:16.252Z"
+    },
+    "4c15b8a9-1866-15a7-90fd-447015fd73c6": {
+      "description": "Transparent 128x128 looping GIF animation of Mage, a blue-robed hooded wizard raising a blue magical shield. 16 frames; use for Mage's defend-loop state.",
+      "userDescription": "Transparent 128x128 looping GIF animation of Mage, a blue-robed hooded wizard raising a blue magical shield. 16 frames; use for Mage's defend-loop state.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T09:30:16.268Z"
+    },
+    "ca17e98b-95cd-bdf3-adf3-a172496c15bb": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "a68f9d32282b0366664acce4076e06d7",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.7206,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.0078,
+            "y": 0.0078,
+            "w": 0.9844,
+            "h": 0.9844
+          },
+          "transparentPaddingNorm": {
+            "left": 0.0078,
+            "right": 0.0078,
+            "top": 0.0078,
+            "bottom": 0.0078
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-10-26T12:18:52.053Z"
+      },
+      "stale": false,
+      "updated": "2026-10-26T12:19:07.355Z",
+      "description": "Transparent 128x128 PNG icon of a blue silver-edged shield, for the defense button.",
+      "userDescription": "Transparent 128x128 PNG icon of a blue silver-edged shield, for the defense button.",
+      "visualConfirmed": true,
+      "md5": "a68f9d32282b0366664acce4076e06d7"
+    },
+    "5e0f54d3-a1c2-5c64-44af-73153a61953a": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "3f1191b09fa0978fc3b73d4a1d6f46a7",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.3564,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.1797,
+            "y": 0.0938,
+            "w": 0.6406,
+            "h": 0.8125
+          },
+          "transparentPaddingNorm": {
+            "left": 0.1797,
+            "right": 0.1797,
+            "top": 0.0938,
+            "bottom": 0.0938
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-10-26T12:18:52.124Z"
+      },
+      "stale": false,
+      "updated": "2026-10-26T12:19:07.382Z",
+      "description": "Transparent 128x128 PNG icon of a yellow lightning bolt, for the attack button.",
+      "userDescription": "Transparent 128x128 PNG icon of a yellow lightning bolt, for the attack button.",
+      "visualConfirmed": true,
+      "md5": "3f1191b09fa0978fc3b73d4a1d6f46a7"
+    },
+    "10cdfed1-5d4a-bcd8-fc61-aa3f6ca378b6": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 001 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 001 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "1cb80e73de9de36801322c0fccb292cc",
+      "stale": false,
+      "updated": "2026-10-26T14:52:48.758Z"
+    },
+    "9801fd47-be7a-4021-5537-004cb03b9784": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 002 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 002 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "d3ff7dcb3e89117622c491625607b7bb",
+      "stale": false,
+      "updated": "2026-10-26T14:52:48.806Z"
+    },
+    "21bfc8fd-003a-f509-469d-c67948376140": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 003 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 003 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "8630209c155438e66d4107f03ee11f1a",
+      "stale": false,
+      "updated": "2026-10-26T14:52:48.854Z"
+    },
+    "3cb55ea4-649e-820e-94a7-a76668c8e6ee": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 004 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 004 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "eb99590d4f0af215395eb70756a2d557",
+      "stale": false,
+      "updated": "2026-10-26T14:52:48.904Z"
+    },
+    "a90a251e-84b2-0a60-5fb8-c66475c3b06f": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 005 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 005 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "aa3fcfb0c9cb1ee5a751d1ad8edbdf0d",
+      "stale": false,
+      "updated": "2026-10-26T14:52:48.952Z"
+    },
+    "fd4db86e-ffab-de35-89f6-2102526c49b9": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 006 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 006 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "0a77a95e23f13111ee5794c6f9d97143",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.000Z"
+    },
+    "be8a16aa-114c-82d6-4932-3e633d788700": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 007 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 007 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "f07e8fe8243b4ec984c064f2fabb2642",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.049Z"
+    },
+    "98e5afcb-bb63-4588-def6-9fcc194bab07": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 008 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 008 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "360f9903b7072c3a0a2177eb952ec44a",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.097Z"
+    },
+    "cfc881ed-8702-521d-2d82-4805e5ae989a": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 009 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 009 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "9ffaaef9df03677a1cf137984d2b1ea1",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.144Z"
+    },
+    "cf6e5669-9976-5e19-866d-ce6f77af439c": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 010 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 010 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "afc52dae532d129034615029f917699a",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.193Z"
+    },
+    "da2e6f1b-ab8f-d188-0ff3-36eaffdea3bd": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 011 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 011 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "73c246e9e642e81e66e89458c011e458",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.240Z"
+    },
+    "59380c09-0113-31c7-34ba-aa970f2f4b0a": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 012 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 012 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "c2314484a018af3a9a6b1cca47aea147",
+      "stale": false,
+      "updated": "2026-10-26T14:52:49.288Z"
+    },
+    "bc8753b2-3f33-18de-b682-312800ea7151": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 013 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 013 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.634Z"
+    },
+    "e1d0399b-c3d6-606b-9f00-e471c388416e": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 014 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 014 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.681Z"
+    },
+    "7d3603d9-4620-c30b-88f1-39fd6765316b": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 015 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 015 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.731Z"
+    },
+    "831aea24-b070-979d-cdb9-a5fe25a6753c": {
+      "description": "Transparent 128x128 WaterBall projectile animation frame 016 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "userDescription": "Transparent 128x128 WaterBall projectile animation frame 016 of 16. Blue glowing water orb with swirling internal water; source folder water_bullet_deform_16f/sprite. Keep in sequence order for the projectile deformation animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.778Z"
+    },
+    "27157966-b9ea-2ac4-7537-104df4116e7a": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 001 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 001 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.834Z"
+    },
+    "4fb0a254-5b51-50c7-d426-47a26b1d62d6": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 002 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 002 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.885Z"
+    },
+    "d82d4ccb-9b9e-72f8-0f34-d0bcd1cd1fbe": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 003 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 003 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.935Z"
+    },
+    "43b8b8d9-ba74-90d7-11b1-bf3788d8ebbd": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 004 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 004 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:07.983Z"
+    },
+    "729df97e-1f80-ff55-3336-69ee0fb16b27": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 005 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 005 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.030Z"
+    },
+    "29aa673b-629f-41c9-bbed-5346bf77ae60": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 006 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 006 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.078Z"
+    },
+    "79fe1d57-8200-a067-3943-5066aea76687": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 007 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 007 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.126Z"
+    },
+    "d1782afc-0a9b-4012-e47a-6679bcaffd7d": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 008 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 008 of 10. Blue water splash and scattered droplets on transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.174Z"
+    },
+    "589d3e9e-82ca-8878-9b47-b1349869b24e": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 010 of 10. Fading scattered blue water droplets on a transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 010 of 10. Fading scattered blue water droplets on a transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "cac3467fbf926dbf500134ec1b1d4461",
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.224Z"
+    },
+    "be4b3bd1-dc53-2edf-226d-c0770f611de1": {
+      "description": "Transparent 128x128 WaterBall impact animation frame 009 of 10. Fading scattered blue water droplets on a transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "userDescription": "Transparent 128x128 WaterBall impact animation frame 009 of 10. Fading scattered blue water droplets on a transparent background; source folder water_bullet_impact_16f/sprite. Keep in sequence order for the impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "1c0de2da6f4cdea926978f89f9c1074a",
+      "stale": false,
+      "updated": "2026-10-26T14:53:08.273Z"
+    },
+    "2a077aff-3a18-40f7-6890-7ae63585c202": {
+      "description": "Transparent 128x128, 16-frame looping WaterBall projectile animation assembled from the imported water_bullet_deform_16f frames; used as the moving blue water orb during attacks.",
+      "userDescription": "Transparent 128x128, 16-frame looping WaterBall projectile animation assembled from the imported water_bullet_deform_16f frames; used as the moving blue water orb during attacks.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "3931b1547db11c919cc8f19aacbfe64f",
+      "stale": false,
+      "updated": "2026-10-26T15:51:00.011Z"
+    },
+    "6002b65b-0ef3-0734-66b7-91bf87f9c98f": {
+      "description": "Mage blue-robed wizard attack animation assembled from the original SpriteSheep attack folder, 16 frames at native 128x128 resolution, 10 fps, transparent background. No scaling or cropping.",
+      "userDescription": "Mage blue-robed wizard attack animation assembled from the original SpriteSheep attack folder, 16 frames at native 128x128 resolution, 10 fps, transparent background. No scaling or cropping.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "d58240e6fb2fe74680d65f62f80fe21b",
+      "stale": false,
+      "updated": "2026-10-26T16:28:13.538Z"
+    },
+    "d4e49b30-04ff-0e98-4c4b-634a8a620896": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "d8bf2a4dafaca032229253e5b79a365a",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.2114,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.2344,
+            "y": 0.125,
+            "w": 0.4531,
+            "h": 0.75
+          },
+          "transparentPaddingNorm": {
+            "left": 0.2344,
+            "right": 0.3125,
+            "top": 0.125,
+            "bottom": 0.125
+          },
+          "contentCenterNorm": {
+            "x": 0.4609,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.4609,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.4609,
+            "y": 0.5
+          }
+        },
+        "notes": [],
+        "updated": "2026-10-26T17:30:26.551Z"
+      },
+      "stale": false,
+      "updated": "2026-10-26T18:02:10.889Z",
+      "description": "Transparent 128×128, 9-frame one-shot WaterBall side-impact animation: a bright cyan splash with trailing droplets, centered slightly left. Used on the target at projectile impact; configured for about one second.",
+      "userDescription": "Transparent 128×128, nine-frame one-shot WaterBall side-impact animation sourced from the refreshed water_bullet_impact_side_9f sprite folder. The splash is authored to travel left-to-right; mirror horizontally for impacts from right-to-left.",
+      "visualConfirmed": true,
+      "md5": "d8bf2a4dafaca032229253e5b79a365a"
+    },
+    "851c09f7-8ecd-f2a1-0f25-2939b1bb5c07": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "a29dde05d7b92cea163d05ab2e695f30",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.2252,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.2422,
+            "y": 0.1641,
+            "w": 0.5078,
+            "h": 0.7969
+          },
+          "transparentPaddingNorm": {
+            "left": 0.2422,
+            "right": 0.25,
+            "top": 0.1641,
+            "bottom": 0.0391
+          },
+          "contentCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          },
+          "interiorHoleBBoxNorm": {
+            "x": 0.3906,
+            "y": 0.6172,
+            "w": 0.0625,
+            "h": 0.1719
+          },
+          "interiorHoleCoverage": 0.0053
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          },
+          "tapCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          }
+        },
+        "notes": [
+          "Interior transparent opening detected (see alpha.interiorHoleBBoxNorm) — e.g. a ring/hoop opening; place pass-through targets against this box, not the outer bbox."
+        ],
+        "updated": "2026-10-26T17:54:21.961Z"
+      },
+      "stale": false,
+      "updated": "2026-10-26T17:55:39.262Z",
+      "description": "Transparent 128x128, 9-frame Mage hit reaction animation at 10 fps (0.9 seconds). Use for nonlethal damage; play once, then restore Mage_Idle. Fatal hits use the existing death animation.",
+      "userDescription": "Transparent 128x128, 9-frame Mage hit reaction animation at 10 fps (0.9 seconds). Use for nonlethal damage; play once, then restore Mage_Idle. Fatal hits use the existing death animation.",
+      "visualConfirmed": true
+    },
+    "c1469e6f-35dc-549c-1789-2086153fd3df": {
+      "source": "user",
+      "visual": {
+        "version": 1,
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "9636b1f0f4e3c707855b71c54c4f4838",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "threshold": 8,
+          "alphaCoverage": 0.2252,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.2422,
+            "y": 0.1641,
+            "w": 0.5078,
+            "h": 0.7969
+          },
+          "transparentPaddingNorm": {
+            "left": 0.2422,
+            "right": 0.25,
+            "top": 0.1641,
+            "bottom": 0.0391
+          },
+          "contentCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          },
+          "interiorHoleBBoxNorm": {
+            "x": 0.3906,
+            "y": 0.6172,
+            "w": 0.0625,
+            "h": 0.1719
+          },
+          "interiorHoleCoverage": 0.0053
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          },
+          "tapCenterNorm": {
+            "x": 0.4961,
+            "y": 0.5625
+          }
+        },
+        "notes": [
+          "Interior transparent opening detected (see alpha.interiorHoleBBoxNorm) — e.g. a ring/hoop opening; place pass-through targets against this box, not the outer bbox."
+        ],
+        "updated": "2026-10-26T18:03:32.117Z"
+      },
+      "stale": false,
+      "updated": "2026-10-26T18:03:43.997Z",
+      "description": "Transparent 128×128 animated Mage sprite with a blue hooded robe and glowing staff, 9 frames at 10 fps (0.9 s) and configured to loop. Duplicate source texture; the current hit-reaction component uses Mage_Hit (r207).",
+      "userDescription": "Transparent 128×128 animated Mage sprite with a blue hooded robe and glowing staff, 9 frames at 10 fps (0.9 s) and configured to loop. Duplicate source texture; the current hit-reaction component uses Mage_Hit (r207).",
+      "visualConfirmed": true
+    },
+    "77dbb9c1-f95a-9b5a-4608-394aa53447f5": {
+      "description": "Transparent 128x128 cyan water splash frame with droplets, part of the refreshed WaterBall side-impact animation.",
+      "userDescription": "Transparent 128x128 cyan water splash frame with droplets, part of the refreshed WaterBall side-impact animation.",
+      "source": "user",
+      "visualConfirmed": true,
+      "md5": "2d7273a523154a32d751891599905278",
+      "stale": false,
+      "updated": "2026-10-26T19:32:30.314Z"
+    },
+    "8a7f1104-542d-d466-d19b-c2255edb15b6": {
+      "source": "user",
+      "visual": {
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "3101a1fc0a4a15cc38922995ba2e557c",
+          "width": 54,
+          "height": 54,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "alphaCoverage": 0.8999,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1
+          },
+          "transparentPaddingNorm": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "notes": []
+      },
+      "stale": false,
+      "updated": "2026-10-27T15:46:17.381Z"
+    },
+    "46b2a933-5324-6a83-1501-b48b1328dafb": {
+      "description": "Test-only Dodge button. Click detection logs to the console; no gameplay action is connected.",
+      "userDescription": "Test-only Dodge button. Click detection logs to the console; no gameplay action is connected.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:48:41.807Z"
+    },
+    "90921353-1eb6-874b-0498-018201717974": {
+      "description": "Test-only Block button. Click detection logs to the console; no gameplay action is connected.",
+      "userDescription": "Test-only Block button. Click detection logs to the console; no gameplay action is connected.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:48:42.842Z"
+    },
+    "f5fbdac8-47fb-93b2-cdb3-02aeb0ed3a23": {
+      "description": "Test-only Parry button. Click detection logs to the console; no gameplay action is connected.",
+      "userDescription": "Test-only Parry button. Click detection logs to the console; no gameplay action is connected.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:48:43.806Z"
+    },
+    "cd4532bb-3188-16c3-e960-e15f9f472d84": {
+      "description": "Player stamina icon using the imported attack texture.",
+      "userDescription": "Player stamina icon using the imported attack texture.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:56:06.677Z"
+    },
+    "0d598fa9-c4de-0459-a84f-7a31c70d523f": {
+      "description": "Live numeric stamina value. Updated through UIManager from Mage_Player's PlayerStamina component.",
+      "userDescription": "Live numeric stamina value. Updated through UIManager from Mage_Player's PlayerStamina component.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:56:06.742Z"
+    },
+    "3ce199fd-b0ee-e2c5-a55c-fe83987f13df": {
+      "description": "Dodge stamina cost icon.",
+      "userDescription": "Dodge stamina cost icon.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:24.894Z"
+    },
+    "6a0f0f14-e0e9-5723-f33e-8068d029b5df": {
+      "description": "Dodge stamina cost: 1.",
+      "userDescription": "Dodge stamina cost: 1.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:25.044Z"
+    },
+    "7194406d-dbd4-e440-9400-45d4db8bb6ea": {
+      "description": "Block stamina cost icon.",
+      "userDescription": "Block stamina cost icon.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:26.348Z"
+    },
+    "dc1a299c-cb56-2be4-51ee-0522d4a6aafc": {
+      "description": "Block stamina cost: 3.",
+      "userDescription": "Block stamina cost: 3.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:26.509Z"
+    },
+    "9a4f367a-c2f9-a219-f861-a37e63b94af5": {
+      "description": "Parry stamina cost icon.",
+      "userDescription": "Parry stamina cost icon.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:27.817Z"
+    },
+    "02375c10-84e6-7931-a3cb-782d0b684050": {
+      "description": "Parry stamina cost: 2.",
+      "userDescription": "Parry stamina cost: 2.",
+      "source": "user",
+      "visualConfirmed": true,
+      "stale": false,
+      "updated": "2026-10-27T15:58:27.962Z"
+    },
+    "b2a808ca-e20d-eb71-e2c1-4eab0543c2b4": {
+      "source": "user",
+      "visual": {
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "ab2ab05d60a2f4282d0bab63db49b3c8",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "alphaCoverage": 0.2065,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.2656,
+            "y": 0.2266,
+            "w": 0.4688,
+            "h": 0.7422
+          },
+          "transparentPaddingNorm": {
+            "left": 0.2656,
+            "right": 0.2656,
+            "top": 0.2266,
+            "bottom": 0.0313
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          }
+        },
+        "notes": []
+      },
+      "stale": false,
+      "updated": "2026-10-27T18:03:00.414Z",
+      "description": "Sixteen frame mage parry animation for the player's Parry action.",
+      "userDescription": "Sixteen frame mage parry animation for the player's Parry action.",
+      "visualConfirmed": true,
+      "md5": "ab2ab05d60a2f4282d0bab63db49b3c8"
+    },
+    "6ab5c7f3-869c-baac-373b-4ff01aac974d": {
+      "source": "user",
+      "visual": {
+        "source": "texture_thumbnail",
+        "image": {
+          "mimeType": "image/png",
+          "md5": "be1bba1aeea465e296b36f0de5112442",
+          "width": 128,
+          "height": 128,
+          "aspect": 1,
+          "hasAlpha": true,
+          "format": "png"
+        },
+        "alpha": {
+          "alphaCoverage": 0.2065,
+          "opaque": false,
+          "opaqueBBoxNorm": {
+            "x": 0.2656,
+            "y": 0.2266,
+            "w": 0.4688,
+            "h": 0.7422
+          },
+          "transparentPaddingNorm": {
+            "left": 0.2656,
+            "right": 0.2656,
+            "top": 0.2266,
+            "bottom": 0.0313
+          },
+          "contentCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          }
+        },
+        "anchors": {
+          "frameCenterNorm": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "visualCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          },
+          "tapCenterNorm": {
+            "x": 0.5,
+            "y": 0.5977
+          }
+        },
+        "notes": []
+      },
+      "stale": false,
+      "updated": "2026-10-27T18:16:48.779Z",
+      "description": "Updated sixteen frame mage parry effect from the parry_fx source sequence.",
+      "userDescription": "Updated sixteen frame mage parry effect from the parry_fx source sequence.",
+      "visualConfirmed": true,
+      "md5": "be1bba1aeea465e296b36f0de5112442"
+    }
+  },
+  "shortIdMap": {
+    "mappings": [
+      {
+        "guid": "602a125f-adef-400a-1092-0fec2f5a3f83",
+        "shortId": "r1",
+        "type": "resource"
+      },
+      {
+        "guid": "9baa39a1-99dd-68c7-f365-ef9fb4e1cf1c",
+        "shortId": "s1",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "131eee15-64bf-4bea-a12e-b1016d0e5d2a",
+        "shortId": "c1",
+        "type": "component"
+      },
+      {
+        "guid": "8f8f8437-a9a9-74f5-a884-8d54dcd4d0d9",
+        "shortId": "c2",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000001543",
+        "shortId": "r2",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000132",
+        "shortId": "r3",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-0000000000c0",
+        "shortId": "r4",
+        "type": "resource"
+      },
+      {
+        "guid": "baefbdf4-60ba-4a4c-ab1a-a438636f70e3",
+        "shortId": "r5",
+        "type": "resource"
+      },
+      {
+        "guid": "7ef786cc-529a-62cf-958f-23c6f3088799",
+        "shortId": "r6",
+        "type": "resource"
+      },
+      {
+        "guid": "43096c5c-549e-e1c6-13c3-3b2196b3ee03",
+        "shortId": "s2",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b256736a-83d2-4d33-7d02-1810df4ee6b5",
+        "shortId": "c3",
+        "type": "component"
+      },
+      {
+        "guid": "bd9289fd-f61a-aa50-605d-3f7c86ae8379",
+        "shortId": "c4",
+        "type": "component"
+      },
+      {
+        "guid": "0732a9d6-347c-4417-32ad-52fe5a595797",
+        "shortId": "s3",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e5196504-ae97-4389-bd4d-cb693ae57d8e",
+        "shortId": "c5",
+        "type": "component"
+      },
+      {
+        "guid": "61e19798-7c49-da2e-e81d-1aea110909ea",
+        "shortId": "c6",
+        "type": "component"
+      },
+      {
+        "guid": "c08a9fe7-b5d6-0812-3afa-c18f690757ef",
+        "shortId": "r7",
+        "type": "resource"
+      },
+      {
+        "guid": "276461fa-2823-8ab6-fd31-b7c258f2c6b7",
+        "shortId": "r8",
+        "type": "resource"
+      },
+      {
+        "guid": "f0f337ca-2df7-c216-a1a3-febf8a63ef40",
+        "shortId": "r9",
+        "type": "resource"
+      },
+      {
+        "guid": "f953a34b-e93c-7034-0650-5acaeb8da28b",
+        "shortId": "r10",
+        "type": "resource"
+      },
+      {
+        "guid": "4fcc8e0c-3c3c-0861-8497-5441979eef1a",
+        "shortId": "s4",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b911be35-3c08-17f8-6aa1-ca556a8d9504",
+        "shortId": "c7",
+        "type": "component"
+      },
+      {
+        "guid": "65994aec-50e4-ff0a-7b06-e1bfebcd59ef",
+        "shortId": "c8",
+        "type": "component"
+      },
+      {
+        "guid": "45e8e301-d3ae-7f73-6658-892e1c6ea83a",
+        "shortId": "s5",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e9d15531-d92b-a69f-b719-9f6756ce81f2",
+        "shortId": "c9",
+        "type": "component"
+      },
+      {
+        "guid": "c6b566ac-6af2-ba64-58c1-25551beacf24",
+        "shortId": "s6",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a7cc441e-beb4-1782-310c-09e92c676315",
+        "shortId": "c10",
+        "type": "component"
+      },
+      {
+        "guid": "9b792552-af34-a9d9-d525-4f84f2e897be",
+        "shortId": "c11",
+        "type": "component"
+      },
+      {
+        "guid": "7ec2f107-36ef-2da6-9b8d-98e886c39ebe",
+        "shortId": "s7",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7daaa10f-4632-2edc-678c-383047772ea0",
+        "shortId": "c12",
+        "type": "component"
+      },
+      {
+        "guid": "b0574fff-c0fa-382c-f98d-fd291cc2f40c",
+        "shortId": "c13",
+        "type": "component"
+      },
+      {
+        "guid": "413b5e60-acd6-c578-9022-0afc0d0911d7",
+        "shortId": "r11",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000024",
+        "shortId": "r12",
+        "type": "resource"
+      },
+      {
+        "guid": "fef3f741-c07f-b5d2-0345-f8250aa83d0b",
+        "shortId": "r13",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000001544",
+        "shortId": "r14",
+        "type": "resource"
+      },
+      {
+        "guid": "dcc614d0-3eb3-d1b0-80a6-0a62ca932715",
+        "shortId": "r15",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000009",
+        "shortId": "r16",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000802",
+        "shortId": "r17",
+        "type": "resource"
+      },
+      {
+        "guid": "3b82a289-686a-d37e-12b4-42c874371a38",
+        "shortId": "r18",
+        "type": "resource"
+      },
+      {
+        "guid": "ef9bfcde-6e62-e51e-f0f2-662c60d111d1",
+        "shortId": "r19",
+        "type": "resource"
+      },
+      {
+        "guid": "b4f3dec5-471b-e678-75b3-cb43b205e268",
+        "shortId": "s8",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e4739073-a1fd-56c4-542f-eb5e444caea7",
+        "shortId": "c14",
+        "type": "component"
+      },
+      {
+        "guid": "34695d7a-37f8-5dcc-c28a-df521daf2ff9",
+        "shortId": "c15",
+        "type": "component"
+      },
+      {
+        "guid": "5e416a79-6015-6fbf-76ae-3f8dc88d9b94",
+        "shortId": "s9",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4a5b5544-b94d-9db7-30b0-3b055f92a607",
+        "shortId": "c16",
+        "type": "component"
+      },
+      {
+        "guid": "d481e498-d05e-64d0-9d3e-1bc855fcdafd",
+        "shortId": "c17",
+        "type": "component"
+      },
+      {
+        "guid": "fdf8a8b8-0dba-d009-6eaf-e80435b14d9c",
+        "shortId": "s10",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "cc475eb1-e3a4-5398-e864-68417f819ec3",
+        "shortId": "c18",
+        "type": "component"
+      },
+      {
+        "guid": "91fc2702-45f8-6d82-854c-2061aa8040a8",
+        "shortId": "c19",
+        "type": "component"
+      },
+      {
+        "guid": "1ed1a8d5-e468-9ed7-74ab-9b1b47b8b36c",
+        "shortId": "s11",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e6a8b864-e4f8-5eb7-1b0a-0ff6b8201a45",
+        "shortId": "c20",
+        "type": "component"
+      },
+      {
+        "guid": "1bbc71eb-34be-1d9c-752c-673a085a3583",
+        "shortId": "c21",
+        "type": "component"
+      },
+      {
+        "guid": "1bd4c49f-81f9-f0aa-aafc-430a17d7d904",
+        "shortId": "s12",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "347e1e37-a0ac-1705-8664-019e5c399947",
+        "shortId": "c22",
+        "type": "component"
+      },
+      {
+        "guid": "647ed38e-1c7f-b00f-0aaa-c362ba0462f9",
+        "shortId": "c23",
+        "type": "component"
+      },
+      {
+        "guid": "f00cb5da-f804-116b-8ec1-08d84b5e7baf",
+        "shortId": "r20",
+        "type": "resource"
+      },
+      {
+        "guid": "19f931a0-a22f-c4cf-f0ff-3596c4508b76",
+        "shortId": "r21",
+        "type": "resource"
+      },
+      {
+        "guid": "f6426520-1ed7-763c-530d-42272df497c0",
+        "shortId": "r22",
+        "type": "resource"
+      },
+      {
+        "guid": "b4ecdca5-30a8-5a62-1f49-fe0335dfe8c9",
+        "shortId": "r23",
+        "type": "resource"
+      },
+      {
+        "guid": "b2e046a6-1418-9dc1-2f4f-de172ae21d0d",
+        "shortId": "r24",
+        "type": "resource"
+      },
+      {
+        "guid": "5b900ef5-3c60-b61f-57a0-86778f744be8",
+        "shortId": "r25",
+        "type": "resource"
+      },
+      {
+        "guid": "a501a308-8fe4-270a-a8af-a035a05f8676",
+        "shortId": "r26",
+        "type": "resource"
+      },
+      {
+        "guid": "a7da20e2-9ebb-006a-ccab-b9946a671223",
+        "shortId": "r27",
+        "type": "resource"
+      },
+      {
+        "guid": "1d318442-9acf-14b0-da16-0520c073d3bb",
+        "shortId": "r28",
+        "type": "resource"
+      },
+      {
+        "guid": "0183b165-4325-bb5e-684d-c954bd0668b3",
+        "shortId": "r29",
+        "type": "resource"
+      },
+      {
+        "guid": "06a9e7c1-8547-f006-c16d-dc374d43e1dc",
+        "shortId": "r30",
+        "type": "resource"
+      },
+      {
+        "guid": "fbe435d4-cd0f-2327-eae7-98a6e4d23b6a",
+        "shortId": "r31",
+        "type": "resource"
+      },
+      {
+        "guid": "9a8c13ba-21a1-a8bc-2d4e-aa21695d5e1e",
+        "shortId": "r32",
+        "type": "resource"
+      },
+      {
+        "guid": "537ceb88-3976-ef01-ccbe-0a7159650ce8",
+        "shortId": "r33",
+        "type": "resource"
+      },
+      {
+        "guid": "3edd6a4d-eb71-6182-5386-e4a723a27425",
+        "shortId": "r34",
+        "type": "resource"
+      },
+      {
+        "guid": "277c0dde-d1f5-8747-1951-167f6967456b",
+        "shortId": "r35",
+        "type": "resource"
+      },
+      {
+        "guid": "99f94abb-ead3-8c72-6816-8919295ba79b",
+        "shortId": "r36",
+        "type": "resource"
+      },
+      {
+        "guid": "ebc58b45-dd25-458a-248e-a5484096309c",
+        "shortId": "r37",
+        "type": "resource"
+      },
+      {
+        "guid": "4524969b-6d7e-e42f-850b-2b2a16a677a8",
+        "shortId": "r38",
+        "type": "resource"
+      },
+      {
+        "guid": "969ae9d0-a53a-dae5-724c-04e221f4d127",
+        "shortId": "r39",
+        "type": "resource"
+      },
+      {
+        "guid": "7314dc5e-b222-b64c-0bc1-d3bd3e0696cd",
+        "shortId": "r40",
+        "type": "resource"
+      },
+      {
+        "guid": "dba960cb-0f6e-afb3-a7da-3daf73461b2f",
+        "shortId": "r41",
+        "type": "resource"
+      },
+      {
+        "guid": "60a4c754-d91f-6052-523b-e7eb79ce4ead",
+        "shortId": "r42",
+        "type": "resource"
+      },
+      {
+        "guid": "b56c251a-c66a-eb5a-d737-a721a5677b83",
+        "shortId": "r43",
+        "type": "resource"
+      },
+      {
+        "guid": "e93c148a-d66e-81c5-e768-ceeaaa272bda",
+        "shortId": "r44",
+        "type": "resource"
+      },
+      {
+        "guid": "38942cbd-d83a-ee20-09fc-1a61c76109c7",
+        "shortId": "r45",
+        "type": "resource"
+      },
+      {
+        "guid": "0ec6edb1-0e39-bdf5-f92f-13cdfa09905a",
+        "shortId": "r46",
+        "type": "resource"
+      },
+      {
+        "guid": "f68838ad-68a2-8544-a930-4493573f19fa",
+        "shortId": "r47",
+        "type": "resource"
+      },
+      {
+        "guid": "30563df8-4b81-e4a6-4a62-82083403145a",
+        "shortId": "r48",
+        "type": "resource"
+      },
+      {
+        "guid": "c83def9c-8bf5-9b71-6d22-7a1ab6db5a57",
+        "shortId": "r49",
+        "type": "resource"
+      },
+      {
+        "guid": "fb53bdec-5077-96e0-be62-db80da8cd471",
+        "shortId": "r50",
+        "type": "resource"
+      },
+      {
+        "guid": "66d70b6c-70f0-2861-d48c-46567d5ef3ce",
+        "shortId": "r51",
+        "type": "resource"
+      },
+      {
+        "guid": "84ca3456-9e50-f19a-2344-26e29609715e",
+        "shortId": "r52",
+        "type": "resource"
+      },
+      {
+        "guid": "650ec256-1389-f3a4-1784-871e21564ac2",
+        "shortId": "r53",
+        "type": "resource"
+      },
+      {
+        "guid": "61c9de73-c2b6-ed5e-6715-07cc999f391e",
+        "shortId": "r54",
+        "type": "resource"
+      },
+      {
+        "guid": "7bb1dbdb-5634-ccbd-738c-481600cf84a2",
+        "shortId": "r55",
+        "type": "resource"
+      },
+      {
+        "guid": "74ba32ba-6764-c013-a8bb-9e8762c767d7",
+        "shortId": "r56",
+        "type": "resource"
+      },
+      {
+        "guid": "aa6c23b2-d9e6-0da4-4017-603323a1af7c",
+        "shortId": "r57",
+        "type": "resource"
+      },
+      {
+        "guid": "1e971f4b-7853-bbd4-3d24-8c3d2b3edaee",
+        "shortId": "r58",
+        "type": "resource"
+      },
+      {
+        "guid": "ac67dbeb-0d81-222b-b5f5-3bd6ec84e9c0",
+        "shortId": "r59",
+        "type": "resource"
+      },
+      {
+        "guid": "a0c8e7c5-ed6c-88d3-41db-bba986ff717a",
+        "shortId": "r60",
+        "type": "resource"
+      },
+      {
+        "guid": "f5425e2f-bb96-e367-4aac-00a845e8cccb",
+        "shortId": "r61",
+        "type": "resource"
+      },
+      {
+        "guid": "02f54f22-171b-a60a-1f1c-2ee1435b753e",
+        "shortId": "r62",
+        "type": "resource"
+      },
+      {
+        "guid": "d7586c46-2af0-80af-908a-9fbda7ee5fc7",
+        "shortId": "r63",
+        "type": "resource"
+      },
+      {
+        "guid": "24ab1faf-43d7-0fcc-95dc-9dddd805f694",
+        "shortId": "r64",
+        "type": "resource"
+      },
+      {
+        "guid": "3ca9f7d2-ee4a-c27f-72b0-fa211558268f",
+        "shortId": "r65",
+        "type": "resource"
+      },
+      {
+        "guid": "c37af2df-62a3-aeca-5357-206004b13a20",
+        "shortId": "r66",
+        "type": "resource"
+      },
+      {
+        "guid": "e5d9a10e-e26e-f1a4-3375-ddd27efabd65",
+        "shortId": "r67",
+        "type": "resource"
+      },
+      {
+        "guid": "5b7cc741-f840-0eed-a7aa-edd7a6a50f21",
+        "shortId": "r68",
+        "type": "resource"
+      },
+      {
+        "guid": "3f4a5772-2900-d120-9879-781eb6a0efed",
+        "shortId": "r69",
+        "type": "resource"
+      },
+      {
+        "guid": "c56bebfb-66df-8005-2f83-e7afd24813ee",
+        "shortId": "r70",
+        "type": "resource"
+      },
+      {
+        "guid": "74df829c-7d31-666c-047c-601ba9013e33",
+        "shortId": "r71",
+        "type": "resource"
+      },
+      {
+        "guid": "289f4cac-88e1-e208-7840-8ba6996ec68e",
+        "shortId": "r72",
+        "type": "resource"
+      },
+      {
+        "guid": "08875532-087d-0fbf-5918-1da044c6040a",
+        "shortId": "r73",
+        "type": "resource"
+      },
+      {
+        "guid": "93acf5e2-2acc-51fd-afc0-218fabc7898a",
+        "shortId": "r74",
+        "type": "resource"
+      },
+      {
+        "guid": "f5cfedc2-2e6c-7e0e-3f3d-981b981efaa3",
+        "shortId": "r75",
+        "type": "resource"
+      },
+      {
+        "guid": "4db15f0d-7eed-745f-e20f-587c025f8839",
+        "shortId": "r76",
+        "type": "resource"
+      },
+      {
+        "guid": "625ea6b2-7a35-d407-7bf3-1796264a3d7b",
+        "shortId": "r77",
+        "type": "resource"
+      },
+      {
+        "guid": "e884fec4-b77c-aef5-026b-f6b446d6bfd8",
+        "shortId": "r78",
+        "type": "resource"
+      },
+      {
+        "guid": "222b254d-48a4-3f98-cfc9-017e485710a7",
+        "shortId": "r79",
+        "type": "resource"
+      },
+      {
+        "guid": "d5ed6d73-289b-00ac-7dfb-bf1a2fa6cbb4",
+        "shortId": "r80",
+        "type": "resource"
+      },
+      {
+        "guid": "29c6df00-1f8c-1adc-28a8-1a94a75eb945",
+        "shortId": "r81",
+        "type": "resource"
+      },
+      {
+        "guid": "e893bc83-46de-003a-7b65-3148f1d102c0",
+        "shortId": "r82",
+        "type": "resource"
+      },
+      {
+        "guid": "a9f08296-6a59-d6a2-a840-09a213a40de4",
+        "shortId": "r83",
+        "type": "resource"
+      },
+      {
+        "guid": "21990168-079a-20dc-55b9-ada450622047",
+        "shortId": "r84",
+        "type": "resource"
+      },
+      {
+        "guid": "3212a33c-c896-dab8-60c6-b46366fe001d",
+        "shortId": "r85",
+        "type": "resource"
+      },
+      {
+        "guid": "7c4120c9-b454-de9b-32bc-d09fc792ac9d",
+        "shortId": "r86",
+        "type": "resource"
+      },
+      {
+        "guid": "6b382404-fc03-0f24-4bbf-5c67510a91a3",
+        "shortId": "r87",
+        "type": "resource"
+      },
+      {
+        "guid": "e04399a3-bec5-2552-8674-912aec5469f9",
+        "shortId": "r88",
+        "type": "resource"
+      },
+      {
+        "guid": "45cb60b2-aead-dadf-0087-bad51e5e7a58",
+        "shortId": "r89",
+        "type": "resource"
+      },
+      {
+        "guid": "499e835d-c9d2-5ed0-0f71-6c439b0a16bb",
+        "shortId": "r90",
+        "type": "resource"
+      },
+      {
+        "guid": "4cac40de-8b5c-044d-4bc6-764bfd7c21a8",
+        "shortId": "r91",
+        "type": "resource"
+      },
+      {
+        "guid": "428cd840-9e65-61fc-5129-6526eeb9bc47",
+        "shortId": "r92",
+        "type": "resource"
+      },
+      {
+        "guid": "c11984ef-fe60-f469-3670-62f5501ee897",
+        "shortId": "r93",
+        "type": "resource"
+      },
+      {
+        "guid": "7fa25420-21bc-f8a7-eb80-13b89e8416ac",
+        "shortId": "r94",
+        "type": "resource"
+      },
+      {
+        "guid": "ede955d4-b3ab-e907-68fb-944edbb821aa",
+        "shortId": "r95",
+        "type": "resource"
+      },
+      {
+        "guid": "24abc4fe-430c-5d44-f2e7-0493d1398343",
+        "shortId": "r96",
+        "type": "resource"
+      },
+      {
+        "guid": "5a7d3228-7578-96cd-ed4e-c67772dedf7c",
+        "shortId": "r97",
+        "type": "resource"
+      },
+      {
+        "guid": "adab6e68-d581-9bbe-91ea-0ee6e4782fdf",
+        "shortId": "r98",
+        "type": "resource"
+      },
+      {
+        "guid": "b9ccf07b-9941-468e-3426-97a0eaf60f8b",
+        "shortId": "r99",
+        "type": "resource"
+      },
+      {
+        "guid": "582a1287-551d-0353-8c22-26e69201b691",
+        "shortId": "r100",
+        "type": "resource"
+      },
+      {
+        "guid": "03b9103e-b903-b295-16b0-6817dabf9fc1",
+        "shortId": "r101",
+        "type": "resource"
+      },
+      {
+        "guid": "61908fec-e9bb-9d28-c36e-bf5abdbfa4a8",
+        "shortId": "r102",
+        "type": "resource"
+      },
+      {
+        "guid": "fbd75371-cfac-2bc7-3c6b-81b901858dca",
+        "shortId": "r103",
+        "type": "resource"
+      },
+      {
+        "guid": "c8c43d33-274c-a1b1-9a68-2ed318d8c42c",
+        "shortId": "r104",
+        "type": "resource"
+      },
+      {
+        "guid": "27c268ff-b775-863b-f70b-39a8f530e492",
+        "shortId": "r105",
+        "type": "resource"
+      },
+      {
+        "guid": "082d37f7-06f3-3dd7-e612-3836dfe58fc2",
+        "shortId": "r106",
+        "type": "resource"
+      },
+      {
+        "guid": "7d0a0d3b-5248-6cea-75bf-79bcf8203964",
+        "shortId": "r107",
+        "type": "resource"
+      },
+      {
+        "guid": "e3ccf1cb-4e81-2523-78f2-ac8c984c5b61",
+        "shortId": "r108",
+        "type": "resource"
+      },
+      {
+        "guid": "f61c6f5b-490d-805d-273a-f266895650bd",
+        "shortId": "r109",
+        "type": "resource"
+      },
+      {
+        "guid": "f456d8d9-b74c-3da2-e077-b4281e4b5757",
+        "shortId": "r110",
+        "type": "resource"
+      },
+      {
+        "guid": "37ee5d3e-b4d4-4847-9c95-dbb2b14fb7cf",
+        "shortId": "r111",
+        "type": "resource"
+      },
+      {
+        "guid": "46eddf43-3303-9a06-fb18-09e045a6567a",
+        "shortId": "r112",
+        "type": "resource"
+      },
+      {
+        "guid": "0256dd9b-14a5-9f18-7205-c0e90a3dd4ef",
+        "shortId": "r113",
+        "type": "resource"
+      },
+      {
+        "guid": "85a0c640-1e6d-8c43-e9e9-50a3d52d0270",
+        "shortId": "r114",
+        "type": "resource"
+      },
+      {
+        "guid": "3a968799-1fb9-7dab-fcbc-03d07e13bef4",
+        "shortId": "r115",
+        "type": "resource"
+      },
+      {
+        "guid": "ddba4846-5b8d-5f70-8a0c-5be6e0ecbff0",
+        "shortId": "r116",
+        "type": "resource"
+      },
+      {
+        "guid": "e153a71b-fbad-e8e1-9ffc-208c2ff5637c",
+        "shortId": "r117",
+        "type": "resource"
+      },
+      {
+        "guid": "b4d8ae6d-f3a7-3c96-e7cb-3453fc3102bf",
+        "shortId": "r118",
+        "type": "resource"
+      },
+      {
+        "guid": "550c0d0b-34db-501f-0c6e-fecb19bbaaf4",
+        "shortId": "r119",
+        "type": "resource"
+      },
+      {
+        "guid": "ab3d8024-9221-f0a8-7e31-b4b9c70a4d9f",
+        "shortId": "r120",
+        "type": "resource"
+      },
+      {
+        "guid": "a17d69b2-c431-05c2-7efe-f0a767b0d48a",
+        "shortId": "r121",
+        "type": "resource"
+      },
+      {
+        "guid": "89d985cc-ff30-9e15-a40c-29f4f71013c0",
+        "shortId": "r122",
+        "type": "resource"
+      },
+      {
+        "guid": "6d633081-1d4e-0c77-0d68-f876523ccbdb",
+        "shortId": "r123",
+        "type": "resource"
+      },
+      {
+        "guid": "baf20783-9b48-5aad-f7b9-8a8fdf692266",
+        "shortId": "r124",
+        "type": "resource"
+      },
+      {
+        "guid": "b5b236e5-b4be-69ac-e6a3-2bad52fb807e",
+        "shortId": "r125",
+        "type": "resource"
+      },
+      {
+        "guid": "8c043593-039b-4e8f-04f7-ba1dbe39dd52",
+        "shortId": "r126",
+        "type": "resource"
+      },
+      {
+        "guid": "3e01ff68-3a33-bbfd-159e-af564ae6f4f5",
+        "shortId": "r127",
+        "type": "resource"
+      },
+      {
+        "guid": "82239a9e-6407-f6b3-c403-78308e8e4145",
+        "shortId": "r128",
+        "type": "resource"
+      },
+      {
+        "guid": "a6eefb59-37ef-b8e4-b165-1f303741622c",
+        "shortId": "r129",
+        "type": "resource"
+      },
+      {
+        "guid": "5ec8d5b7-0c3b-6c9b-b446-8d831e6219fb",
+        "shortId": "r130",
+        "type": "resource"
+      },
+      {
+        "guid": "2416ca6e-e6a9-2b63-e6cf-1c38d38d752d",
+        "shortId": "r131",
+        "type": "resource"
+      },
+      {
+        "guid": "d7dd9952-10ec-8719-b54d-b97e2ace4d72",
+        "shortId": "r132",
+        "type": "resource"
+      },
+      {
+        "guid": "c7814ca5-4d08-647c-4984-b4b49a657108",
+        "shortId": "r133",
+        "type": "resource"
+      },
+      {
+        "guid": "bdd2b6b0-f430-0a19-63c0-ea40706659fd",
+        "shortId": "r134",
+        "type": "resource"
+      },
+      {
+        "guid": "3581122d-09d8-02c7-af11-def6c5035676",
+        "shortId": "r135",
+        "type": "resource"
+      },
+      {
+        "guid": "6f49c355-2b69-2dd3-f74c-8b31d5268dc0",
+        "shortId": "r136",
+        "type": "resource"
+      },
+      {
+        "guid": "7f22b74e-c598-3fc5-852e-f0824abb3b17",
+        "shortId": "r137",
+        "type": "resource"
+      },
+      {
+        "guid": "4159fa01-b6eb-fbe7-95ee-589d6541d4b2",
+        "shortId": "r138",
+        "type": "resource"
+      },
+      {
+        "guid": "21dd49bf-4bf8-12d3-140b-ed25b67a4126",
+        "shortId": "r139",
+        "type": "resource"
+      },
+      {
+        "guid": "91078d28-f7a4-2d5a-95e4-323e5428d661",
+        "shortId": "r140",
+        "type": "resource"
+      },
+      {
+        "guid": "b1dbaa27-41f8-42b6-f98a-067cec5f668f",
+        "shortId": "r141",
+        "type": "resource"
+      },
+      {
+        "guid": "9414f060-6bff-c18d-29de-2eecd7045fb6",
+        "shortId": "r142",
+        "type": "resource"
+      },
+      {
+        "guid": "4c7efd18-7e70-c0ff-fac3-de6c42c1b720",
+        "shortId": "r143",
+        "type": "resource"
+      },
+      {
+        "guid": "901108e2-7b35-c0de-7632-a2f7d105b14e",
+        "shortId": "r144",
+        "type": "resource"
+      },
+      {
+        "guid": "a5d3c8e7-023b-cfe2-d5fc-b897a2ae5b86",
+        "shortId": "r145",
+        "type": "resource"
+      },
+      {
+        "guid": "1db88656-8bd6-1eaa-8c4c-bfdff4bac3ad",
+        "shortId": "r146",
+        "type": "resource"
+      },
+      {
+        "guid": "dd2d4592-362b-799f-e36c-def22976393c",
+        "shortId": "r147",
+        "type": "resource"
+      },
+      {
+        "guid": "5f244cfb-0a69-8f29-c9dd-8748bd15e907",
+        "shortId": "r148",
+        "type": "resource"
+      },
+      {
+        "guid": "6ed5fff5-c0b3-da49-43bc-a2592661eb3a",
+        "shortId": "r149",
+        "type": "resource"
+      },
+      {
+        "guid": "09ef738b-6583-20e0-0760-1833ae209a50",
+        "shortId": "r150",
+        "type": "resource"
+      },
+      {
+        "guid": "4c15b8a9-1866-15a7-90fd-447015fd73c6",
+        "shortId": "r151",
+        "type": "resource"
+      },
+      {
+        "guid": "58a768a5-9a8c-0d2d-a47e-a942b5d37e6d",
+        "shortId": "s13",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "de1ee210-6dcd-96c5-0d8d-6f4ec6ea12dd",
+        "shortId": "c24",
+        "type": "component"
+      },
+      {
+        "guid": "e03594f4-43d1-d48c-0c69-1fc234cdb96e",
+        "shortId": "s14",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0b2d61ca-722d-3ba5-e446-3f8947687d8a",
+        "shortId": "c25",
+        "type": "component"
+      },
+      {
+        "guid": "615f69a0-f1e5-3e34-c8ff-d7cce61a68e7",
+        "shortId": "c26",
+        "type": "component"
+      },
+      {
+        "guid": "0607680c-dfd8-c943-6c83-8c33e6d127f6",
+        "shortId": "s15",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "bfb7980c-2b9b-dc9d-4bb1-87f61dcd3ff8",
+        "shortId": "c27",
+        "type": "component"
+      },
+      {
+        "guid": "86310c43-fb45-d91a-2dc3-91096956ee88",
+        "shortId": "c28",
+        "type": "component"
+      },
+      {
+        "guid": "cf6c0be7-d03b-f2f8-ba4f-9ad8e262374c",
+        "shortId": "s16",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "7e7d8b54-cafb-6136-feb4-4fdffcb1091f",
+        "shortId": "c29",
+        "type": "component"
+      },
+      {
+        "guid": "a2be8cf5-d321-d284-5780-fb9d06ec8f93",
+        "shortId": "s17",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "5173595b-3f40-b90e-4003-33284e7d60b6",
+        "shortId": "c30",
+        "type": "component"
+      },
+      {
+        "guid": "0d51c2cb-e79d-6b68-0770-b1fe1fb799e7",
+        "shortId": "c31",
+        "type": "component"
+      },
+      {
+        "guid": "30061d1e-4a43-74c8-316d-9089e0535ef1",
+        "shortId": "s18",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b7d9ba16-e781-8eb1-ba81-82a535bb96aa",
+        "shortId": "c32",
+        "type": "component"
+      },
+      {
+        "guid": "f34597ef-8d85-0a83-e4b3-46a5d97d2f5e",
+        "shortId": "c33",
+        "type": "component"
+      },
+      {
+        "guid": "ca17e98b-95cd-bdf3-adf3-a172496c15bb",
+        "shortId": "r152",
+        "type": "resource"
+      },
+      {
+        "guid": "5e0f54d3-a1c2-5c64-44af-73153a61953a",
+        "shortId": "r153",
+        "type": "resource"
+      },
+      {
+        "guid": "8fede102-5e9a-967b-5962-bca4287f5358",
+        "shortId": "s19",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2588c8c4-31f4-899b-4627-1a6dae7c31da",
+        "shortId": "c34",
+        "type": "component"
+      },
+      {
+        "guid": "f72e0949-d88f-50a0-5688-f0ecfd8e5f4c",
+        "shortId": "c35",
+        "type": "component"
+      },
+      {
+        "guid": "e97563c0-af98-1a02-da32-08138324fb71",
+        "shortId": "s20",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "4e3ca4fd-992a-6f31-387f-92a568dcd67d",
+        "shortId": "c36",
+        "type": "component"
+      },
+      {
+        "guid": "b0112671-0a76-0ed6-a8a6-c6bb1a50b269",
+        "shortId": "c37",
+        "type": "component"
+      },
+      {
+        "guid": "38b44e27-b7a6-13d7-8cbf-7403d5be9194",
+        "shortId": "s21",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "074c5491-6934-d9b6-8894-9b6423cc65d6",
+        "shortId": "c38",
+        "type": "component"
+      },
+      {
+        "guid": "6664aacd-a0f2-a026-d07b-f22afa29c08f",
+        "shortId": "c39",
+        "type": "component"
+      },
+      {
+        "guid": "26441b38-fabb-1349-cf5f-44c7c7739420",
+        "shortId": "r154",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000008000",
+        "shortId": "r155",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000001c",
+        "shortId": "r156",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000001d",
+        "shortId": "r157",
+        "type": "resource"
+      },
+      {
+        "guid": "f0d6ba31-2292-e801-681c-e7965192c72e",
+        "shortId": "s22",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "fcacca5f-88e1-0654-b68a-d522a06da3e1",
+        "shortId": "c40",
+        "type": "component"
+      },
+      {
+        "guid": "6521b507-55ee-99f5-1914-7bf8619384df",
+        "shortId": "c41",
+        "type": "component"
+      },
+      {
+        "guid": "1709839b-02fa-c102-f915-0e0fe0e716a6",
+        "shortId": "s23",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1cb2a322-b748-f5a7-bd1e-d51b08745f68",
+        "shortId": "c42",
+        "type": "component"
+      },
+      {
+        "guid": "fa31fb4c-cb51-aad0-8009-56f27bd69642",
+        "shortId": "c43",
+        "type": "component"
+      },
+      {
+        "guid": "6f2d9696-b98a-4cde-c94f-78343bb04af8",
+        "shortId": "r158",
+        "type": "resource"
+      },
+      {
+        "guid": "014223e0-65ab-a2b7-0190-db261cecf672",
+        "shortId": "r159",
+        "type": "resource"
+      },
+      {
+        "guid": "10cdfed1-5d4a-bcd8-fc61-aa3f6ca378b6",
+        "shortId": "r160",
+        "type": "resource"
+      },
+      {
+        "guid": "9801fd47-be7a-4021-5537-004cb03b9784",
+        "shortId": "r161",
+        "type": "resource"
+      },
+      {
+        "guid": "21bfc8fd-003a-f509-469d-c67948376140",
+        "shortId": "r162",
+        "type": "resource"
+      },
+      {
+        "guid": "3cb55ea4-649e-820e-94a7-a76668c8e6ee",
+        "shortId": "r163",
+        "type": "resource"
+      },
+      {
+        "guid": "a90a251e-84b2-0a60-5fb8-c66475c3b06f",
+        "shortId": "r164",
+        "type": "resource"
+      },
+      {
+        "guid": "fd4db86e-ffab-de35-89f6-2102526c49b9",
+        "shortId": "r165",
+        "type": "resource"
+      },
+      {
+        "guid": "be8a16aa-114c-82d6-4932-3e633d788700",
+        "shortId": "r166",
+        "type": "resource"
+      },
+      {
+        "guid": "98e5afcb-bb63-4588-def6-9fcc194bab07",
+        "shortId": "r167",
+        "type": "resource"
+      },
+      {
+        "guid": "cfc881ed-8702-521d-2d82-4805e5ae989a",
+        "shortId": "r168",
+        "type": "resource"
+      },
+      {
+        "guid": "cf6e5669-9976-5e19-866d-ce6f77af439c",
+        "shortId": "r169",
+        "type": "resource"
+      },
+      {
+        "guid": "da2e6f1b-ab8f-d188-0ff3-36eaffdea3bd",
+        "shortId": "r170",
+        "type": "resource"
+      },
+      {
+        "guid": "59380c09-0113-31c7-34ba-aa970f2f4b0a",
+        "shortId": "r171",
+        "type": "resource"
+      },
+      {
+        "guid": "bc8753b2-3f33-18de-b682-312800ea7151",
+        "shortId": "r172",
+        "type": "resource"
+      },
+      {
+        "guid": "e1d0399b-c3d6-606b-9f00-e471c388416e",
+        "shortId": "r173",
+        "type": "resource"
+      },
+      {
+        "guid": "7d3603d9-4620-c30b-88f1-39fd6765316b",
+        "shortId": "r174",
+        "type": "resource"
+      },
+      {
+        "guid": "831aea24-b070-979d-cdb9-a5fe25a6753c",
+        "shortId": "r175",
+        "type": "resource"
+      },
+      {
+        "guid": "27157966-b9ea-2ac4-7537-104df4116e7a",
+        "shortId": "r176",
+        "type": "resource"
+      },
+      {
+        "guid": "4fb0a254-5b51-50c7-d426-47a26b1d62d6",
+        "shortId": "r177",
+        "type": "resource"
+      },
+      {
+        "guid": "d82d4ccb-9b9e-72f8-0f34-d0bcd1cd1fbe",
+        "shortId": "r178",
+        "type": "resource"
+      },
+      {
+        "guid": "43b8b8d9-ba74-90d7-11b1-bf3788d8ebbd",
+        "shortId": "r179",
+        "type": "resource"
+      },
+      {
+        "guid": "729df97e-1f80-ff55-3336-69ee0fb16b27",
+        "shortId": "r180",
+        "type": "resource"
+      },
+      {
+        "guid": "29aa673b-629f-41c9-bbed-5346bf77ae60",
+        "shortId": "r181",
+        "type": "resource"
+      },
+      {
+        "guid": "79fe1d57-8200-a067-3943-5066aea76687",
+        "shortId": "r182",
+        "type": "resource"
+      },
+      {
+        "guid": "d1782afc-0a9b-4012-e47a-6679bcaffd7d",
+        "shortId": "r183",
+        "type": "resource"
+      },
+      {
+        "guid": "589d3e9e-82ca-8878-9b47-b1349869b24e",
+        "shortId": "r184",
+        "type": "resource"
+      },
+      {
+        "guid": "be4b3bd1-dc53-2edf-226d-c0770f611de1",
+        "shortId": "r185",
+        "type": "resource"
+      },
+      {
+        "guid": "c6db667d-a922-6e4b-e8c8-2d993599150c",
+        "shortId": "r186",
+        "type": "resource"
+      },
+      {
+        "guid": "d9ba8c97-f482-5984-5547-70080878afef",
+        "shortId": "r187",
+        "type": "resource"
+      },
+      {
+        "guid": "bde34a1a-c941-f2f6-d922-b170139fe5c1",
+        "shortId": "r188",
+        "type": "resource"
+      },
+      {
+        "guid": "c4820263-3956-db72-b55a-38d44e7d2716",
+        "shortId": "r189",
+        "type": "resource"
+      },
+      {
+        "guid": "993c0b3e-8465-8f12-8103-a0bc01202dd5",
+        "shortId": "r190",
+        "type": "resource"
+      },
+      {
+        "guid": "2a077aff-3a18-40f7-6890-7ae63585c202",
+        "shortId": "r191",
+        "type": "resource"
+      },
+      {
+        "guid": "322abd35-a285-9eee-e18a-8501ee1a8057",
+        "shortId": "r192",
+        "type": "resource"
+      },
+      {
+        "guid": "fdc1c7d3-6e92-c627-b0ce-391db3d24280",
+        "shortId": "s24",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "64a7739c-5ecf-d6d0-3658-34052b3b4d6d",
+        "shortId": "c44",
+        "type": "component"
+      },
+      {
+        "guid": "190f75ce-88ae-c307-77cb-3c28296c26f7",
+        "shortId": "c45",
+        "type": "component"
+      },
+      {
+        "guid": "323ddc76-9327-3f38-1481-dd2b29bd929b",
+        "shortId": "s25",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "b7cfc3b2-b8c7-e015-9c4e-f8cea357aa68",
+        "shortId": "c46",
+        "type": "component"
+      },
+      {
+        "guid": "65df0678-2d12-d62b-3220-55d915c29fcd",
+        "shortId": "c47",
+        "type": "component"
+      },
+      {
+        "guid": "fe42404b-3ebc-a9c4-1548-51237133d049",
+        "shortId": "s26",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1f3a929d-c796-b84b-5f15-ae43ebabd242",
+        "shortId": "c48",
+        "type": "component"
+      },
+      {
+        "guid": "c43559d4-e40a-49de-833d-d7de4bfae47c",
+        "shortId": "c49",
+        "type": "component"
+      },
+      {
+        "guid": "9e68ba8f-35c5-2160-9555-d80fa9c8f944",
+        "shortId": "s27",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "bb6f90b9-4eb3-256e-df8a-0921de74fa4a",
+        "shortId": "c50",
+        "type": "component"
+      },
+      {
+        "guid": "ae44510d-acf3-d7c1-71e4-3e3b106e240e",
+        "shortId": "c51",
+        "type": "component"
+      },
+      {
+        "guid": "d74ce5d6-47db-f2e7-1386-6e92f67c53e1",
+        "shortId": "r193",
+        "type": "resource"
+      },
+      {
+        "guid": "786bbc8b-ac63-6343-a990-41db3424fd91",
+        "shortId": "r194",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000006b",
+        "shortId": "r195",
+        "type": "resource"
+      },
+      {
+        "guid": "baa5fb2f-c31a-59bf-3e66-f9797b865143",
+        "shortId": "r196",
+        "type": "resource"
+      },
+      {
+        "guid": "88bc6efb-7f91-4d36-1153-03255c0357d6",
+        "shortId": "r197",
+        "type": "resource"
+      },
+      {
+        "guid": "3b10bb49-ae83-d9d6-e312-151f12f0c4ec",
+        "shortId": "r198",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-0000000000c3",
+        "shortId": "r199",
+        "type": "resource"
+      },
+      {
+        "guid": "31144100-9cba-c68a-4870-86cf36e3ba1a",
+        "shortId": "r200",
+        "type": "resource"
+      },
+      {
+        "guid": "6002b65b-0ef3-0734-66b7-91bf87f9c98f",
+        "shortId": "r201",
+        "type": "resource"
+      },
+      {
+        "guid": "d71bc06a-1966-06c5-21ca-33ef0b569fa3",
+        "shortId": "s28",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ff152772-2d19-14da-317a-da0b1b55183d",
+        "shortId": "c52",
+        "type": "component"
+      },
+      {
+        "guid": "7dc2fa72-9078-2d0e-f393-6267934373e2",
+        "shortId": "c53",
+        "type": "component"
+      },
+      {
+        "guid": "6f0cd870-38a2-56e3-99b7-9af757cc7ad0",
+        "shortId": "s29",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f2563de5-d7d1-1d2d-61ad-d8d5891bcb69",
+        "shortId": "c54",
+        "type": "component"
+      },
+      {
+        "guid": "ea278aef-e86c-cede-3c07-4b2539dc55fd",
+        "shortId": "c55",
+        "type": "component"
+      },
+      {
+        "guid": "fbdbf7b9-1819-e67e-17ee-df66eecd3322",
+        "shortId": "r202",
+        "type": "resource"
+      },
+      {
+        "guid": "4ded0443-e6e4-c1c0-bec1-6bc6cb1e8b5c",
+        "shortId": "r203",
+        "type": "resource"
+      },
+      {
+        "guid": "d4e49b30-04ff-0e98-4c4b-634a8a620896",
+        "shortId": "r204",
+        "type": "resource"
+      },
+      {
+        "guid": "dbf65be1-ce93-8694-1d77-de7362ef99da",
+        "shortId": "r205",
+        "type": "resource"
+      },
+      {
+        "guid": "13ad522b-5e9e-b063-36b3-5e7fbdeab418",
+        "shortId": "r206",
+        "type": "resource"
+      },
+      {
+        "guid": "851c09f7-8ecd-f2a1-0f25-2939b1bb5c07",
+        "shortId": "r207",
+        "type": "resource"
+      },
+      {
+        "guid": "d867d1ce-a68d-5071-e994-003a9e347efc",
+        "shortId": "r208",
+        "type": "resource"
+      },
+      {
+        "guid": "09918afa-8fb8-c50e-3941-a1b855ebb27b",
+        "shortId": "r209",
+        "type": "resource"
+      },
+      {
+        "guid": "c1469e6f-35dc-549c-1789-2086153fd3df",
+        "shortId": "r210",
+        "type": "resource"
+      },
+      {
+        "guid": "38bb31e9-ff3f-365f-1c53-f0185a494d6f",
+        "shortId": "r211",
+        "type": "resource"
+      },
+      {
+        "guid": "fd7cec08-4474-8646-3d00-c40f2e841646",
+        "shortId": "r212",
+        "type": "resource"
+      },
+      {
+        "guid": "dfd9ec46-7a14-8167-76c0-2b74a4617df2",
+        "shortId": "r213",
+        "type": "resource"
+      },
+      {
+        "guid": "77dbb9c1-f95a-9b5a-4608-394aa53447f5",
+        "shortId": "r214",
+        "type": "resource"
+      },
+      {
+        "guid": "78b92ce3-70c8-88b2-076a-30e0fbf7309b",
+        "shortId": "r215",
+        "type": "resource"
+      },
+      {
+        "guid": "85eb203f-2ee8-2169-44d3-be22f391d981",
+        "shortId": "r216",
+        "type": "resource"
+      },
+      {
+        "guid": "4318f8de-c126-f9e8-b93a-4b9857ee20af",
+        "shortId": "r217",
+        "type": "resource"
+      },
+      {
+        "guid": "88d91764-d1e0-d807-4205-3262509dcd5c",
+        "shortId": "r218",
+        "type": "resource"
+      },
+      {
+        "guid": "b008e44d-00d8-3802-a281-05feff43f7ba",
+        "shortId": "s30",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8a03a2cf-ad39-5a3e-74e2-41bc125e3203",
+        "shortId": "c56",
+        "type": "component"
+      },
+      {
+        "guid": "8a0c7b04-ae03-b912-7be1-a28cad80407d",
+        "shortId": "c57",
+        "type": "component"
+      },
+      {
+        "guid": "32dbe702-e124-d477-ca26-68371c57d79a",
+        "shortId": "s31",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "2f4f6146-4e2d-ddc5-7193-27e6f18b7720",
+        "shortId": "c58",
+        "type": "component"
+      },
+      {
+        "guid": "acef8c1f-63f8-585b-cdb4-aab04173755b",
+        "shortId": "c59",
+        "type": "component"
+      },
+      {
+        "guid": "6a818079-812e-dd3b-3a98-abf226db98cc",
+        "shortId": "r219",
+        "type": "resource"
+      },
+      {
+        "guid": "506b4cd3-2dae-bfcd-b9ea-12924d5a7716",
+        "shortId": "r220",
+        "type": "resource"
+      },
+      {
+        "guid": "5dbe569c-a4aa-6f1e-84d2-b640848aded1",
+        "shortId": "r221",
+        "type": "resource"
+      },
+      {
+        "guid": "69cfc24b-5dfe-e132-f791-277554f927b5",
+        "shortId": "r222",
+        "type": "resource"
+      },
+      {
+        "guid": "ca7a96cf-4a80-de85-385a-267725856d7d",
+        "shortId": "r223",
+        "type": "resource"
+      },
+      {
+        "guid": "e699229c-0eb6-d65a-bda1-f1293daa9449",
+        "shortId": "r224",
+        "type": "resource"
+      },
+      {
+        "guid": "e8a54024-0f3e-f2f5-daae-2e21de44c84f",
+        "shortId": "r225",
+        "type": "resource"
+      },
+      {
+        "guid": "38349cd6-98c5-e429-c148-0a6c17b60a2f",
+        "shortId": "r226",
+        "type": "resource"
+      },
+      {
+        "guid": "54f7401d-b463-ed3f-d00c-52dfce684bc9",
+        "shortId": "r227",
+        "type": "resource"
+      },
+      {
+        "guid": "e666bb1d-7d41-3961-53e2-ae0707ee923b",
+        "shortId": "r228",
+        "type": "resource"
+      },
+      {
+        "guid": "426409fd-6a3e-82eb-10c5-5227af12d2d3",
+        "shortId": "r229",
+        "type": "resource"
+      },
+      {
+        "guid": "dfaf8624-385b-8f2d-2b32-56be3aa43f92",
+        "shortId": "r230",
+        "type": "resource"
+      },
+      {
+        "guid": "26c2cf70-32c4-2ffe-2a11-133e12ed8b68",
+        "shortId": "r231",
+        "type": "resource"
+      },
+      {
+        "guid": "fd4da3b2-8e66-e9ac-4bbb-e49a24dec1e6",
+        "shortId": "r232",
+        "type": "resource"
+      },
+      {
+        "guid": "30a5925c-b4ed-1fe5-db04-70339ae57324",
+        "shortId": "r233",
+        "type": "resource"
+      },
+      {
+        "guid": "575f5be1-68ce-8c3e-079c-23fbc4a9bf3c",
+        "shortId": "s32",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "53d31ed2-8ce2-3974-7cc3-43bc17c93239",
+        "shortId": "c60",
+        "type": "component"
+      },
+      {
+        "guid": "3ebb6306-e3d6-b79e-b27c-76ca017efa60",
+        "shortId": "c61",
+        "type": "component"
+      },
+      {
+        "guid": "65876b47-010f-76e3-639d-28d910c2ea48",
+        "shortId": "s33",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "452280ac-0165-8ad2-d754-8a37218173ae",
+        "shortId": "c62",
+        "type": "component"
+      },
+      {
+        "guid": "13b0774b-39f9-0541-694f-76ba7542f7be",
+        "shortId": "c63",
+        "type": "component"
+      },
+      {
+        "guid": "9a8aa282-cd73-3c5f-752c-bc234c1197b7",
+        "shortId": "c64",
+        "type": "component"
+      },
+      {
+        "guid": "8abd4929-9ae7-ec3c-9ad1-a405e0f2b831",
+        "shortId": "c65",
+        "type": "component"
+      },
+      {
+        "guid": "214ede6d-8b08-51ae-9c62-90d9c5db0971",
+        "shortId": "c66",
+        "type": "component"
+      },
+      {
+        "guid": "65ba990a-2ae9-3f64-05bc-f7795d303083",
+        "shortId": "c67",
+        "type": "component"
+      },
+      {
+        "guid": "a4efd78c-5e6b-97f7-ed23-dbdc5eec2ccd",
+        "shortId": "s34",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "46802c53-4b2c-c007-c611-9f154c50152a",
+        "shortId": "c68",
+        "type": "component"
+      },
+      {
+        "guid": "e2be66e0-a178-8fe7-b09d-bfb23ee61359",
+        "shortId": "c69",
+        "type": "component"
+      },
+      {
+        "guid": "050145bc-acb2-ddda-66e6-e98c982b0bb4",
+        "shortId": "s35",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d834be66-4897-595e-606f-295139df6a50",
+        "shortId": "c70",
+        "type": "component"
+      },
+      {
+        "guid": "f13c7327-bd7c-a233-3400-b3667532ea1f",
+        "shortId": "c71",
+        "type": "component"
+      },
+      {
+        "guid": "2b02f221-b74c-a16e-b1d2-071bb8bfe956",
+        "shortId": "r234",
+        "type": "resource"
+      },
+      {
+        "guid": "9856229a-5f92-cfd8-c659-b68534ebce7a",
+        "shortId": "c72",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000000000080",
+        "shortId": "r235",
+        "type": "resource"
+      },
+      {
+        "guid": "bdeef9e8-02b0-215e-5183-35dc624ef53e",
+        "shortId": "r236",
+        "type": "resource"
+      },
+      {
+        "guid": "3ebfccc4-3ecd-3b54-76a6-ec31952b5bef",
+        "shortId": "r237",
+        "type": "resource"
+      },
+      {
+        "guid": "f843f916-f15b-6f12-11d8-113b80fee77f",
+        "shortId": "r238",
+        "type": "resource"
+      },
+      {
+        "guid": "abc95ba8-7182-27a7-ef79-3d8e9f3d1af5",
+        "shortId": "s36",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0070c624-50c7-a253-bc5d-d52f13076fd8",
+        "shortId": "c73",
+        "type": "component"
+      },
+      {
+        "guid": "0ed2b1f4-9da6-7a36-0807-05df8a0d98e4",
+        "shortId": "c74",
+        "type": "component"
+      },
+      {
+        "guid": "d0d77947-84b8-e2d9-c038-059bf06c51bc",
+        "shortId": "r239",
+        "type": "resource"
+      },
+      {
+        "guid": "f18e81e8-7ecc-6569-804f-9a21150e38d2",
+        "shortId": "s37",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d2dd4a39-9e71-bc42-43ef-972d2c3a6f56",
+        "shortId": "c75",
+        "type": "component"
+      },
+      {
+        "guid": "88cc571f-6878-ab5f-9411-33faed6047b2",
+        "shortId": "c76",
+        "type": "component"
+      },
+      {
+        "guid": "34a2d558-3010-c835-c17e-26f6922b153f",
+        "shortId": "s38",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "a347a22b-a7eb-0fb3-5057-e7755863858a",
+        "shortId": "c77",
+        "type": "component"
+      },
+      {
+        "guid": "94db02c3-0e5f-fdde-b78e-36f9d18a3a4d",
+        "shortId": "c78",
+        "type": "component"
+      },
+      {
+        "guid": "779ffd34-76d7-6399-b6bc-6df44e440007",
+        "shortId": "r240",
+        "type": "resource"
+      },
+      {
+        "guid": "fdec5be7-e81b-ac29-1e97-b34da617f42a",
+        "shortId": "s39",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "14871f1a-2852-4d59-36de-33e55920ceeb",
+        "shortId": "c79",
+        "type": "component"
+      },
+      {
+        "guid": "1ba8fe99-f7a0-c1c7-b901-3f4fca3bed2d",
+        "shortId": "c80",
+        "type": "component"
+      },
+      {
+        "guid": "f604a920-ab10-e69e-95ff-d568b017faed",
+        "shortId": "r241",
+        "type": "resource"
+      },
+      {
+        "guid": "4f81fb38-4c51-ba0e-4ba2-b1090f847438",
+        "shortId": "r242",
+        "type": "resource"
+      },
+      {
+        "guid": "24424f34-f912-9102-29b6-52cc731c7a98",
+        "shortId": "r243",
+        "type": "resource"
+      },
+      {
+        "guid": "5f1d7145-0f71-3b0e-8de0-90343e32e09b",
+        "shortId": "c81",
+        "type": "component"
+      },
+      {
+        "guid": "44eeb69a-303e-9411-8365-123258fe786d",
+        "shortId": "c82",
+        "type": "component"
+      },
+      {
+        "guid": "6ae3a1ee-77c6-b5e5-1d1a-30586d49be9b",
+        "shortId": "c83",
+        "type": "component"
+      },
+      {
+        "guid": "cc09e93c-4a50-e9ad-ed4e-ac4bbcb3b443",
+        "shortId": "c84",
+        "type": "component"
+      },
+      {
+        "guid": "f8269c51-cb22-5ab0-abc4-74e3382bab22",
+        "shortId": "r244",
+        "type": "resource"
+      },
+      {
+        "guid": "5a8b7eba-fa49-30b8-0648-713a0e4347f3",
+        "shortId": "s40",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "020cf917-1675-77e1-d925-eae1f5f72a43",
+        "shortId": "c85",
+        "type": "component"
+      },
+      {
+        "guid": "bc380d07-9de3-83bb-be52-48816b197ae7",
+        "shortId": "c86",
+        "type": "component"
+      },
+      {
+        "guid": "00fe182f-436d-aa28-41c2-7d50646da713",
+        "shortId": "r245",
+        "type": "resource"
+      },
+      {
+        "guid": "c810a6b1-3608-3972-460d-227f0d3a0b80",
+        "shortId": "s41",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "bb3e9e0b-389a-9a92-3f32-af2ae2b959bf",
+        "shortId": "c87",
+        "type": "component"
+      },
+      {
+        "guid": "17f13216-0401-1447-228b-e179a51fd875",
+        "shortId": "c88",
+        "type": "component"
+      },
+      {
+        "guid": "77b99659-f892-e96e-38d0-8a9671e0a789",
+        "shortId": "r246",
+        "type": "resource"
+      },
+      {
+        "guid": "5bb28ca8-54a1-8628-8c35-ad24630007c9",
+        "shortId": "s42",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "19b1bb87-8a59-6fbd-4b65-0e96c1df018d",
+        "shortId": "c89",
+        "type": "component"
+      },
+      {
+        "guid": "083d26f2-6484-5d8e-4a1c-59b6271b8c7d",
+        "shortId": "c90",
+        "type": "component"
+      },
+      {
+        "guid": "179fafde-9413-a233-563a-01f8dced274f",
+        "shortId": "r247",
+        "type": "resource"
+      },
+      {
+        "guid": "bcbaabe1-ff10-89b2-bcc7-a280bed06aa7",
+        "shortId": "s43",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f6bed5f4-a126-e1c9-f269-3204790ba70f",
+        "shortId": "c91",
+        "type": "component"
+      },
+      {
+        "guid": "3810cfaf-108d-6a0c-dccf-de4dde5f6b7a",
+        "shortId": "c92",
+        "type": "component"
+      },
+      {
+        "guid": "8a7f1104-542d-d466-d19b-c2255edb15b6",
+        "shortId": "r248",
+        "type": "resource"
+      },
+      {
+        "guid": "46b2a933-5324-6a83-1501-b48b1328dafb",
+        "shortId": "s44",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f986af6e-8942-de6e-a3b6-f59b8897aefd",
+        "shortId": "c93",
+        "type": "component"
+      },
+      {
+        "guid": "86b0698a-35e0-65cb-58e2-c1a3d66d6445",
+        "shortId": "c94",
+        "type": "component"
+      },
+      {
+        "guid": "22456611-9424-89f2-2442-62ac540fd969",
+        "shortId": "s45",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "ab5cb2c2-7c42-09f5-cc8d-410e6d0dd0e0",
+        "shortId": "c95",
+        "type": "component"
+      },
+      {
+        "guid": "11e27e59-ed62-45da-0b80-9ef3d7599e1d",
+        "shortId": "c96",
+        "type": "component"
+      },
+      {
+        "guid": "90921353-1eb6-874b-0498-018201717974",
+        "shortId": "s46",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "3e6e2a0c-2761-5531-2f05-9ee81370cfea",
+        "shortId": "c97",
+        "type": "component"
+      },
+      {
+        "guid": "bbe49bb3-15dc-b750-75c8-caed7fb7d328",
+        "shortId": "c98",
+        "type": "component"
+      },
+      {
+        "guid": "6cabc1f2-047e-468a-d2e8-03061c751e8c",
+        "shortId": "s47",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "52b221b2-8b30-9767-13ae-3266cdce54be",
+        "shortId": "c99",
+        "type": "component"
+      },
+      {
+        "guid": "b70ecf8d-9cb8-0154-ddc3-3b6db72bca01",
+        "shortId": "c100",
+        "type": "component"
+      },
+      {
+        "guid": "f5fbdac8-47fb-93b2-cdb3-02aeb0ed3a23",
+        "shortId": "s48",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d6e6119f-b3ef-6041-de6f-b427b2dd3645",
+        "shortId": "c101",
+        "type": "component"
+      },
+      {
+        "guid": "8213350d-e6d3-7d44-9b18-c1ec0908e53e",
+        "shortId": "c102",
+        "type": "component"
+      },
+      {
+        "guid": "c5084386-a9bd-cfa6-c784-76508ef0947d",
+        "shortId": "s49",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d1602887-5993-11d3-2272-7f37d7fbb1ae",
+        "shortId": "c103",
+        "type": "component"
+      },
+      {
+        "guid": "940277d8-c6c0-801d-27e4-64eeaf7db7cb",
+        "shortId": "c104",
+        "type": "component"
+      },
+      {
+        "guid": "c98aa11a-3aeb-62c9-c6f2-21d4038dd8bf",
+        "shortId": "r249",
+        "type": "resource"
+      },
+      {
+        "guid": "11825a35-bdd3-71c5-191e-8896590df008",
+        "shortId": "c105",
+        "type": "component"
+      },
+      {
+        "guid": "be004cd3-72d8-df7a-30fc-ed9d38fdd7ee",
+        "shortId": "r250",
+        "type": "resource"
+      },
+      {
+        "guid": "e0b023a0-91b5-5a82-528a-d703ca9a8bed",
+        "shortId": "c106",
+        "type": "component"
+      },
+      {
+        "guid": "ef5f69d8-f9e6-9556-bb4a-eeb539cf3477",
+        "shortId": "r251",
+        "type": "resource"
+      },
+      {
+        "guid": "fa1f8993-1948-dad3-c287-9e6c7248935a",
+        "shortId": "c107",
+        "type": "component"
+      },
+      {
+        "guid": "cd4532bb-3188-16c3-e960-e15f9f472d84",
+        "shortId": "s50",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "962e02ba-7995-2c56-ee8d-474fcc2b5c87",
+        "shortId": "c108",
+        "type": "component"
+      },
+      {
+        "guid": "d6ca65c4-c5db-987d-9d84-d29d6a0ba38c",
+        "shortId": "c109",
+        "type": "component"
+      },
+      {
+        "guid": "0d598fa9-c4de-0459-a84f-7a31c70d523f",
+        "shortId": "s51",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "5c53dc64-8996-6ad1-2f4c-eb2b83e09e6e",
+        "shortId": "c110",
+        "type": "component"
+      },
+      {
+        "guid": "07cc3976-62ab-c85f-ee05-824af6aedbac",
+        "shortId": "c111",
+        "type": "component"
+      },
+      {
+        "guid": "26c7cb07-e070-fdf1-627a-bda156b6f7dd",
+        "shortId": "r252",
+        "type": "resource"
+      },
+      {
+        "guid": "74f211e9-5ecd-3adc-c126-b420af79e4da",
+        "shortId": "c112",
+        "type": "component"
+      },
+      {
+        "guid": "3ce199fd-b0ee-e2c5-a55c-fe83987f13df",
+        "shortId": "s52",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "67958f81-53d7-6c96-143e-4066a8ac8a38",
+        "shortId": "c113",
+        "type": "component"
+      },
+      {
+        "guid": "5d9da1a5-2743-fe41-3a25-b994cf32a8bc",
+        "shortId": "c114",
+        "type": "component"
+      },
+      {
+        "guid": "6a0f0f14-e0e9-5723-f33e-8068d029b5df",
+        "shortId": "s53",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "656fde63-a458-26cc-af51-98c2398a21e8",
+        "shortId": "c115",
+        "type": "component"
+      },
+      {
+        "guid": "5eefcc8d-b787-369a-2f73-081a5a38fb37",
+        "shortId": "c116",
+        "type": "component"
+      },
+      {
+        "guid": "7194406d-dbd4-e440-9400-45d4db8bb6ea",
+        "shortId": "s54",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "65d9df5b-a6ba-33af-2578-20daaf1a8a0f",
+        "shortId": "c117",
+        "type": "component"
+      },
+      {
+        "guid": "ffa4d2b8-c216-5da2-f74a-f1ab56594678",
+        "shortId": "c118",
+        "type": "component"
+      },
+      {
+        "guid": "dc1a299c-cb56-2be4-51ee-0522d4a6aafc",
+        "shortId": "s55",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "db2868bb-e549-86bc-f9c5-3f90ce6c4f82",
+        "shortId": "c119",
+        "type": "component"
+      },
+      {
+        "guid": "497c5571-a5de-8069-cd2a-3eca3c084e2f",
+        "shortId": "c120",
+        "type": "component"
+      },
+      {
+        "guid": "9a4f367a-c2f9-a219-f861-a37e63b94af5",
+        "shortId": "s56",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "1fda207b-6ff9-6399-37cf-bee9599f2c8e",
+        "shortId": "c121",
+        "type": "component"
+      },
+      {
+        "guid": "9b0856cb-80ee-cb0b-4b50-0f85e4bb7452",
+        "shortId": "c122",
+        "type": "component"
+      },
+      {
+        "guid": "02375c10-84e6-7931-a3cb-782d0b684050",
+        "shortId": "s57",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "8306bb0c-17ec-1c16-0e3f-513db533315b",
+        "shortId": "c123",
+        "type": "component"
+      },
+      {
+        "guid": "0f71d9da-a330-1787-ed3a-23be501a6107",
+        "shortId": "c124",
+        "type": "component"
+      },
+      {
+        "guid": "a51e9b14-c746-dc26-4eac-b529cf26d2d0",
+        "shortId": "s58",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "cb2312f7-ca14-f986-d60c-d2eea8caee04",
+        "shortId": "c125",
+        "type": "component"
+      },
+      {
+        "guid": "eea368ed-c5ea-07ec-3691-3a507dadd66a",
+        "shortId": "c126",
+        "type": "component"
+      },
+      {
+        "guid": "8a71cfa2-3bb3-2f71-4882-b6b7931280ec",
+        "shortId": "s59",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "66bf55f1-2aa0-271b-eeaa-4748ce8b9d68",
+        "shortId": "c127",
+        "type": "component"
+      },
+      {
+        "guid": "bc640113-74c2-2939-4c53-45346d5144d7",
+        "shortId": "c128",
+        "type": "component"
+      },
+      {
+        "guid": "b0ac16e1-cedf-6b8c-cb86-d464fdda284c",
+        "shortId": "r253",
+        "type": "resource"
+      },
+      {
+        "guid": "6141dac7-8110-4974-907e-e491c20bdebd",
+        "shortId": "c129",
+        "type": "component"
+      },
+      {
+        "guid": "6d4c2b33-f1f2-44f2-5bec-4bc6f6cac0db",
+        "shortId": "s60",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "24a30d3c-adfe-98ba-487f-d63424dffae4",
+        "shortId": "c130",
+        "type": "component"
+      },
+      {
+        "guid": "960c5ef6-835d-4e4f-f8f6-cea58a8774f6",
+        "shortId": "c131",
+        "type": "component"
+      },
+      {
+        "guid": "f05500dc-d4c2-50db-4aa9-6344afcf3201",
+        "shortId": "s61",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "0fc039d9-ff38-b962-762e-080ca7762282",
+        "shortId": "c132",
+        "type": "component"
+      },
+      {
+        "guid": "1a76ad5f-c42f-5dc1-76b0-018f59d6fccb",
+        "shortId": "c133",
+        "type": "component"
+      },
+      {
+        "guid": "67b1ae79-78cf-60b2-54b3-b34da626c103",
+        "shortId": "s62",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "d08cb82e-b6ab-fbca-f3c7-4f5d604376c6",
+        "shortId": "c134",
+        "type": "component"
+      },
+      {
+        "guid": "40f635d1-464c-ec17-1a8c-437c618b1503",
+        "shortId": "c135",
+        "type": "component"
+      },
+      {
+        "guid": "31072ebe-c610-8d2e-ca3e-10b0edb15db6",
+        "shortId": "s63",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "f9890749-fdef-d120-318e-c9d151a6afbe",
+        "shortId": "c136",
+        "type": "component"
+      },
+      {
+        "guid": "7ea85fa2-3a3f-78e9-33e0-b3b297658949",
+        "shortId": "c137",
+        "type": "component"
+      },
+      {
+        "guid": "6596c9b7-5b61-d019-9b6e-fd36e7d4b75d",
+        "shortId": "s64",
+        "type": "sceneObject"
+      },
+      {
+        "guid": "e7359bd5-117c-fa9e-4df2-43a078c61ae1",
+        "shortId": "c138",
+        "type": "component"
+      },
+      {
+        "guid": "f35f0aee-39d4-d9f0-72a1-45a29dc1e683",
+        "shortId": "c139",
+        "type": "component"
+      },
+      {
+        "guid": "b2a808ca-e20d-eb71-e2c1-4eab0543c2b4",
+        "shortId": "r254",
+        "type": "resource"
+      },
+      {
+        "guid": "cf29cbb9-0d51-4e51-2ba5-ed74b6a6ec51",
+        "shortId": "r255",
+        "type": "resource"
+      },
+      {
+        "guid": "6ab5c7f3-869c-baac-373b-4ff01aac974d",
+        "shortId": "r256",
+        "type": "resource"
+      },
+      {
+        "guid": "0e36db0f-a130-c6ac-1e52-54d0494535d9",
+        "shortId": "r257",
+        "type": "resource"
+      },
+      {
+        "guid": "2ab8a5de-6743-589c-cadd-94e90c59e128",
+        "shortId": "c140",
+        "type": "component"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000002000208",
+        "shortId": "r258",
+        "type": "resource"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-000002000209",
+        "shortId": "r259",
+        "type": "resource"
+      },
+      {
+        "guid": "808a2a05-5126-deee-6957-791f8f85827e",
+        "shortId": "r260",
+        "type": "resource"
+      },
+      {
+        "guid": "b02c25bc-70c8-4af2-6df9-b8d30d8332c7",
+        "shortId": "r261",
+        "type": "resource"
+      },
+      {
+        "guid": "f5a86374-17ea-00d5-3a78-57f5e73db05f",
+        "shortId": "r262",
+        "type": "resource"
+      },
+      {
+        "guid": "f54816d3-bc44-af7c-c52d-6a291cd39cd8",
+        "shortId": "c141",
+        "type": "component"
+      },
+      {
+        "guid": "3ef13d1e-3a7a-afcc-ff29-705b17620eb9",
+        "shortId": "r263",
+        "type": "resource"
+      },
+      {
+        "guid": "0116b72a-3f54-7aba-2a1b-5e2a9e7d59f7",
+        "shortId": "c142",
+        "type": "component"
+      }
+    ],
+    "counters": {
+      "sceneObject": 64,
+      "component": 142,
+      "resource": 263
+    }
+  },
+  "handoff": {
+    "autoBrief": {
+      "summary": "Auto-baseline at save: 31 object(s) in 3 render group(s); scripts: DamagePopupManager, ImpactDirectionPresentation, BattleButtonFeedback, BattleManager, ImpactPivotByDirection, ProjectileSpawnOffset, MageHitReaction; resources: 52 (29 Texture2D, 11 GifTexture, 9 GifAsset, 1 ArtTextAsset, 1 SegmentationTexture, 1 Material).\nChanged since open: 4 user edit(s) since open (SceneViewOperation, SceneViewOperation, SceneViewOperation, SceneViewOperation).",
+      "updatedAt": "2026-10-26T19:38:21.508Z"
+    },
+    "plan": "game_type:\n  camera_feed: hidden\n  camera_feed_hidden_rationale: The ongoing project already uses an authored moonlit forest background\n    to preserve the existing battle scene composition.\n  ar_tracking: none\n  core_loop_seconds: 7\n  total_duration_seconds: 90\nstarter_template:\n  mode: none\n  rationale: No matching Effect House scaffold covers this existing alternating WaterBall duel with\n    its turn-based mana actions.\nmechanic_rationale: Continue the existing custom turn-based WaterBall duel; mana now enables a\n  player attack buff or a defensive guard during the same established turn flow.\nmechanic:\n  class: other\n  description: Automatic alternating WaterBall battle with mana regeneration, a once-per-turn player\n    attack buff and a once-per-turn guard.\n  parameters:\n    max_hp: 100\n    damage_min: 10\n    damage_max: 15\n    critical_chance: 0.15\n    critical_multiplier: 2\n    turn_order:\n      - Player A\n      - Bot B\n    prepare_seconds: 10\n    fight_now_skips_remaining_preparation: true\n    max_mana: 10\n    starting_mana: 5\n    mana_regen_per_completed_turn: 1\n    attack_button_cost: 2\n    attack_damage_bonus: 0.75\n    attack_button_uses_per_turn: 1\n    attack_applies_to: Player A's attack in the current turn\n    attack_input_window: Preparation and Fight banner before Player A's attack\n    defense_button_cost: 3\n    defense_damage_taken_multiplier: 0.2\n    defense_button_uses_per_turn: 1\n    defense_applies_to: Player A while Bot B attacks in the current turn\n    defense_input_window: Until Bot B's attack begins\n    defense_animation: defend_loop_downscale8x loops from Bot B attack start through impact\nscreens:\n  - name: Battle\n    role: gameplay\n    initial_visible: true\n    layout:\n      - id: el.turn\n        element: turnText\n        position: top-center-safe\n        content: Turn N\n        kind: hud\n      - id: el.prep\n        element: countdownText\n        position: below turn counter\n        content: 10…1, then Fight\n        kind: hud\n      - id: el.fight_now\n        element: FightNowButton with contained label\n        position: centered below countdownText\n        content: Fight Now; visible only during preparation\n        kind: button\n        interactive: true\n      - id: el.player\n        element: Mage_Player\n        position: left side of forest path\n        kind: playable\n      - id: el.player_hp\n        element: Player health bar\n        position: above Player A\n        content: 100 HP at full\n        kind: hud\n      - id: el.player_mana\n        element: Mage_Player_ManaBar\n        position: below Player A health bar\n        content: 5/10 initially; +1 per completed turn\n        kind: hud\n      - id: el.bot\n        element: Mage_Bot\n        position: right side of forest path\n        kind: playable\n      - id: el.bot_hp\n        element: Bot health bar\n        position: above Bot B\n        content: 100 HP at full\n        kind: hud\n      - id: el.bot_mana\n        element: Mage_Bot_ManaBar\n        position: below Bot B health bar\n        content: 5/10 initially; +1 per completed turn\n        kind: hud\n      - id: el.attack\n        element: Attack_Button\n        position: existing upper-left position\n        content: Costs 2 Player mana; grants +75% damage to Player A's attack this turn; one use per turn;\n          active only when affordable and before Player A attacks\n        kind: button\n        interactive: true\n      - id: el.defense\n        element: Defense_Button\n        position: existing lower-left position\n        content: Costs 3 Player mana; arms one guard for the current turn; dims after use; active until Bot\n          B's attack starts\n        kind: button\n        interactive: true\n      - id: el.waterball\n        element: WaterBallProjectile\n        position: travels between the two characters\n        kind: playable\n      - id: el.impact\n        element: WaterBallImpact\n        position: at the target on hit\n        kind: decoration\n  - name: Result\n    role: result\n    initial_visible: false\n    layout:\n      - id: el.winner\n        element: countdownText winner callout\n        position: center upper\n        content: PLAYER WINS! or BOT WINS!\n        kind: result\n      - id: el.retry\n        element: RetryButton with child label\n        position: bottom-center-safe\n        content: Play Again\n        kind: button\n        interactive: true\n        bounds:\n          x: -120\n          y: -370\n          w: 240\n          h: 80\ninteractions:\n  - kind: record_start_reset\n    trigger: Effect playback starts or APJS.EventType.RecordStart fires\n    response: Restore both fighters to 100 HP and 5/10 mana; clear attack and defense actions and start\n      Turn 1 preparation.\n    state_change: ANY → PREPARATION\n  - kind: gameplay_action\n    trigger: Preparation countdown reaches zero automatically\n    response: Show Fight for one second, then Player A attacks Bot B; if Bot B survives, Bot B attacks\n      Player A; restore 1 mana to both at the end of each completed turn, capped at 10.\n    state_change: PREPARATION → A_ATTACK → B_ATTACK → PREPARATION\n    target:\n      scope: asset\n      asset_ids:\n        - asset.waterball_projectile\n        - asset.waterball_impact\n    feedback:\n      visual: Attack GIF wind-up, WaterBall projectile growth and flight, impact burst, updated health and\n        mana fills.\n  - kind: gameplay_action\n    trigger: Tap Attack_Button before Player A's attack when the button is active and Player A has at\n      least 2 mana\n    response: Spend 2 Player mana and increase Player A's current-turn attack damage by 75%; keep the\n      button inactive after use until the turn ends. The buff does not affect Bot B.\n    state_change: PRE-ATTACK → ATTACK-BOOSTED\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - el.attack\n    feedback:\n      visual: Show press feedback, reduce Player A's mana fill by 2/10, dim Attack_Button, and apply the\n        buff to Player A's hit.\n  - kind: gameplay_action\n    trigger: Tap Defense_Button before Bot B's attack begins when the button is active and Player A has\n      at least 3 mana\n    response: Spend 3 Player mana and arm one guard for the current turn. When Bot B starts attacking,\n      play Player A's looping defend animation until the WaterBall impacts; reduce the incoming\n      final damage to 20% and suppress the normal hit animation. Keep the button inactive until the\n      next turn.\n    state_change: PRE-B_ATTACK → PLAYER-GUARD-ARMED → B_ATTACK → PREPARATION\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - el.defense\n    feedback:\n      visual: Show press feedback, reduce Player A's mana fill by 3/10, dim Defense_Button, loop the Mage\n        shield animation through Bot B's projectile and impact, and preserve the guard pose through\n        nonlethal damage.\n  - kind: gameplay_action\n    trigger: Tap Fight Now while the preparation countdown is visible\n    response: Hide Fight Now, skip the remaining countdown, show Fight for one second, then begin Player\n      A's attack.\n    state_change: PREPARATION → FIGHT_NOW → A_ATTACK\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - el.fight_now\n    feedback:\n      visual: The countdown is replaced by Fight immediately, the button disappears, and the existing\n        attack sequence begins after the one-second callout.\n  - kind: screen_transition\n    trigger: An attack reduces either fighter to zero HP\n    response: Play the defeated fighter's death GIF, show the winner callout, and stop combat.\n    state_change: ATTACK → RESULT\n  - kind: retry\n    trigger: Tap Play Again on the result state\n    response: Restore both fighters to 100 HP and 5/10 mana, clear attack and defense actions, and begin\n      Turn 1 preparation.\n    state_change: RESULT → PREPARATION\n    target:\n      scope: screen_element\n      screen_element_ids:\n        - el.retry\n    feedback:\n      visual: Hide result controls, restore health and mana fills, and show the Turn 1 countdown.\nassets:\n  - id: asset.forest\n    role: forest battle background\n    description: Existing moonlit-forest artwork framing the dirt path.\n    is_background: true\n    count: 1\n    animated: false\n    kind: visual\n    interactive_role: static_bg\n  - id: asset.player\n    role: Player A mage\n    description: Existing blue-robed Mage with idle, attack, hit, defend-loop and death animations.\n    is_background: false\n    count: 1\n    animated: true\n    animation_frames: 16\n    kind: visual\n    interactive_role: decoration\n  - id: asset.bot\n    role: Bot B mage\n    description: Existing mirrored blue-robed Mage with idle, attack, hit and death animations.\n    is_background: false\n    count: 1\n    animated: true\n    animation_frames: 16\n    kind: visual\n    interactive_role: decoration\n  - id: asset.defend_loop\n    role: Mage defend-loop animation\n    description: Existing transparent 128x128 Mage animation raising a blue magical shield; loops\n      through the guarded opponent attack.\n    is_background: false\n    count: 1\n    animated: true\n    animation_frames: 16\n    kind: visual\n    interactive_role: decoration\n  - id: asset.waterball_projectile\n    role: WaterBall projectile\n    description: Existing animated blue WaterBall projectile.\n    is_background: false\n    count: 1\n    animated: true\n    animation_frames: 16\n    kind: visual\n    interactive_role: decoration\n  - id: asset.waterball_impact\n    role: WaterBall impact\n    description: Existing animated WaterBall impact burst.\n    is_background: false\n    count: 1\n    animated: true\n    animation_frames: 10\n    kind: visual\n    interactive_role: decoration\n  - id: asset.health_bars\n    role: Player and Bot health bars\n    description: Existing screen-space health-fill images.\n    is_background: false\n    count: 2\n    animated: false\n    kind: visual\n    interactive_role: decoration\n  - id: asset.mana_bars\n    role: Player and Bot mana bars\n    description: Existing screen-space mana-fill images updated by current mana.\n    is_background: false\n    count: 2\n    animated: false\n    kind: visual\n    interactive_role: decoration\n  - id: asset.attack_button\n    role: Player attack buff button\n    description: Existing Attack_Button UI image with mana and per-turn availability feedback.\n    is_background: false\n    count: 1\n    animated: false\n    kind: visual\n    interactive_role: addressable_part\n  - id: asset.defense_button\n    role: Player guard button\n    description: Existing Defense_Button UI image with mana and per-turn availability feedback.\n    is_background: false\n    count: 1\n    animated: false\n    kind: visual\n    interactive_role: addressable_part\n  - id: asset.fight_result_art\n    role: Fight countdown and winner callout style\n    description: Existing ArtTextAsset styling for Fight, countdown, and winner result text.\n    is_background: false\n    count: 1\n    animated: false\n    kind: art_text\n    interactive_role: decoration\n  - id: asset.retry_button\n    role: Retry button\n    description: Existing screen-space retry control.\n    is_background: false\n    count: 1\n    animated: false\n    kind: visual\n    interactive_role: addressable_part\n  - id: asset.fight_now_button\n    role: Fight Now button\n    description: Existing screen-space button to skip preparation countdown.\n    is_background: false\n    count: 1\n    animated: false\n    kind: visual\n    interactive_role: addressable_part\nrandom_behaviors:\n  - what: Damage per hit\n    range: Uniform integer from 10 through 15 inclusive before critical and attack/defense modifiers.\n    verify_strategy: Inspect configured bounds and damage math across repeated attacks.\n  - what: Critical hit\n    range: 15% chance per attack; critical damage is 2x base, then applicable player attack boost or\n      defense reduction is applied.\n    verify_strategy: Inspect probability and multiplier and compare normal, critical, boosted and\n      guarded damage results.\ncamera_feed_constraints:\n  tracking_type: none\n  tracking_range: Fixed screen-space moonlit forest stage\n  user_image_visible: false\n  composition: segmentation_portrait\n  composition_option: A\ncriteria:\n  - category: layout\n    check: Keep the existing forest scene, both mages and HUD visible in the 9:16 portrait layout; mana\n      bars remain below health bars and Attack/Defense buttons stay in their existing positions.\n  - category: state\n    check: A new play starts at Turn 1 with both HP at 100 and both mana values at 5/10.\n  - category: value\n    check: At the end of each completed turn both fighters recover 1 mana, capped at 10, and both\n      ManaBars match their current values.\n  - category: state\n    check: Attack_Button is active only when Player A has at least 2 mana, the buff has not been used\n      this turn, and Player A has not started the attack; it becomes inactive after use and\n      re-evaluates at the next turn.\n  - category: value\n    check: Activating Attack_Button spends exactly 2 Player mana and applies +75% damage only to Player\n      A's attack; critical hits remain multiplicative.\n  - category: state\n    check: Defense_Button is active only when Player A has at least 3 mana, guard has not been used this\n      turn, and Bot B has not started attacking; it becomes inactive after use and re-evaluates next\n      turn.\n  - category: value\n    check: A guarded Bot attack loops the shield animation from attack start through impact, applies 20%\n      of final incoming damage, and suppresses the Player hit animation; lethal damage still uses\n      the death animation.\n  - category: state\n    check: After the Fight callout, Player A attacks Bot B first; if Bot B survives, Bot B attacks\n      Player A next; the next preparation begins after the exchange.\n  - category: value\n    check: Normal hits deal 10–15 integer damage; critical hits have a 15% chance and double base damage\n      before applicable modifiers.\n  - category: state\n    check: A lethal hit plays the defeated character's death animation, then displays the correct winner\n      and stops combat.\n  - category: state\n    check: Retry restores HP and mana, clears attack and defense states, and starts Turn 1.\nscene_representation:\n  planning_mode: explicit\n  decision_summary: Preserve the existing 2D forest duel, with once-per-turn mana-funded attack and\n    guard actions layered onto the established automated A-then-B turn flow.\n  space:\n    kind: screen\n    description: Existing fixed 9:16 portrait screen-space game.\n  content_form:\n    kind: flat_2d\n    description: Forest artwork, animated Mage GIF textures, screen UI and WaterBall animated textures.\n  requirements:\n    - id: combat.initial_state\n      description: Both fighters start at 100 HP and 5/10 mana, then show the existing Turn 1 preparation\n        countdown.\n      must: true\n      layer_refs:\n        - layer.battle\n        - layer.hud\n      verification_refs:\n        - verify.initial\n    - id: combat.order\n      description: Player A attacks Bot B first; if Bot B survives, Bot B attacks Player A next.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.exchange\n    - id: combat.projectile\n      description: Attacks use the existing growing WaterBall projectile and impact sequence.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.exchange\n    - id: combat.mana\n      description: Both mana bars show current values; both fighters gain one mana after each completed\n        turn, capped at 10.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.attack_boost\n        - verify.defense\n    - id: combat.attack_boost\n      description: Before Player A attacks, the player may spend 2 mana once per turn to boost Player A\n        damage by 75%; the button disables until the next turn.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.attack_boost\n    - id: combat.defense\n      description: Before Bot B attacks, the player may spend 3 mana once per turn to guard; the Mage\n        loops the defense animation through impact, takes 20% final damage and skips hit reaction.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.defense\n    - id: combat.damage\n      description: Damage is 10–15 base with a 15% chance to double via critical hit; applicable attack\n        and defense modifiers follow.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.attack_boost\n        - verify.defense\n        - verify.exchange\n    - id: combat.death_result\n      description: A lethal hit plays the defeated fighter's death animation, displays the correct winner\n        and stops combat.\n      must: true\n      layer_refs:\n        - layer.battle\n        - layer.hud\n      verification_refs:\n        - verify.result\n    - id: combat.retry\n      description: Retry restores HP, mana and Turn 1 preparation.\n      must: true\n      layer_refs:\n        - layer.hud\n      verification_refs:\n        - verify.result\n    - id: combat.skip_countdown\n      description: Fight Now skips the remaining preparation countdown but retains the one-second Fight callout.\n      must: true\n      layer_refs:\n        - layer.hud\n      verification_refs:\n        - verify.fight_now\n    - id: combat.controls\n      description: Attack_Button and Defense_Button are actionable with mana feedback; Defense_Button\n        remains disabled after use until the next turn.\n      must: true\n      layer_refs:\n        - layer.battle\n      verification_refs:\n        - verify.initial\n  layers:\n    - id: layer.battle\n      role: Battle stage\n      description: Existing forest backdrop, mages, health and mana bars, projectile and action controls.\n      space:\n        kind: screen\n        description: Fixed portrait screen space.\n      content_form:\n        kind: flat_2d\n        description: Existing scene images and animated textures.\n      requirement_refs:\n        - combat.initial_state\n        - combat.order\n        - combat.projectile\n        - combat.mana\n        - combat.attack_boost\n        - combat.defense\n        - combat.damage\n        - combat.death_result\n        - combat.controls\n    - id: layer.hud\n      role: Turn and result HUD\n      description: TurnText, countdownText, Fight Now and retry controls.\n      space:\n        kind: screen\n        description: Safe-zone anchored UI.\n      content_form:\n        kind: flat_2d\n        description: Text and Image components.\n      requirement_refs:\n        - combat.initial_state\n        - combat.death_result\n        - combat.retry\n        - combat.skip_countdown\n  limitations:\n    - Attack_Button buffs Player A only; Bot B uses the existing automatic attack.\n    - Defense_Button guards Player A against Bot B only.\n  extensions:\n    existing_game_contract: Retain the current full-screen authored forest composition.\n  fallbacks:\n    unknown_requirement: adapt_and_verify\n    unmet_must: stop_and_explain\n  verification:\n    - id: verify.initial\n      description: Confirm initial battle and mana state.\n      requirement_refs:\n        - combat.initial_state\n        - combat.controls\n      views_or_states:\n        - Initial screen\n      success_criteria: Turn 1, both HP 100, both mana bars at half, both action buttons active at 5 mana.\n    - id: verify.attack_boost\n      description: Activate attack boost once and complete the turn.\n      requirement_refs:\n        - combat.mana\n        - combat.attack_boost\n        - combat.damage\n      views_or_states:\n        - Preparation\n        - Button dim after tap\n        - Player A attack\n        - Bot B attack\n        - Next preparation\n      success_criteria: Tap spends 2 mana, applies 1.75x damage to Player A's hit, disables Attack_Button\n        until the next turn and mana regeneration.\n    - id: verify.defense\n      description: Activate guard, then receive Bot B's attack.\n      requirement_refs:\n        - combat.mana\n        - combat.defense\n        - combat.damage\n      views_or_states:\n        - Preparation with Defense_Button active\n        - Button dim after tap\n        - Bot B attack animation\n        - Shield loop and incoming WaterBall\n        - Impact and reduced damage\n        - Next preparation\n      success_criteria: Tap spends 3 mana, guard animation loops from Bot B attack start through impact,\n        Player takes 20% final damage with no hit animation, and the button resets for the next\n        turn.\n    - id: verify.exchange\n      description: Follow the A-then-B attack exchange.\n      requirement_refs:\n        - combat.order\n        - combat.projectile\n        - combat.damage\n      views_or_states:\n        - A wind-up\n        - A projectile\n        - A impact\n        - B wind-up\n        - B projectile\n        - B impact\n        - next preparation\n      success_criteria: Attack order, projectile growth and flight, impact, damage, health and mana\n        updates follow the contract.\n    - id: verify.result\n      description: Reach a lethal hit and verify result.\n      requirement_refs:\n        - combat.death_result\n        - combat.retry\n      views_or_states:\n        - Lethal impact\n        - death animation\n        - winner state\n        - retry\n      success_criteria: Only the defeated fighter plays dead, the correct winner appears, combat stops,\n        and retry restores the starting state.\n    - id: verify.fight_now\n      description: Tap Fight Now during preparation.\n      requirement_refs:\n        - combat.skip_countdown\n      views_or_states:\n        - Preparation with Fight Now visible\n        - Fight callout\n        - A attack\n      success_criteria: The countdown skips immediately while the Fight callout and normal attack order remain.\nplan_type: game\n",
+    "updatedAt": "2026-10-26T19:38:39.615Z",
+    "template": {
+      "status": "none",
+      "rationale": "No matching Effect House scaffold covers this existing alternating WaterBall duel with its turn-based mana actions.",
+      "updatedAt": "2026-10-26T19:34:32.937Z"
+    },
+    "summary": "Defense action update: BattleManager.defenseButtonObj is wired to Defense_Button (s19); BattleManager.defendLoopTex and MageHitReaction.defendLoopTex both reference defend_loop_downscale8x (r195). The existing project plan specifies 3 mana, once per turn, guard through Bot impact, 20% incoming damage and suppress hit reaction. Compile error log is empty. Project saved at D:\\Project\\Tiktok\\helloword. Preview was not run per user request."
+  },
+  "uiOwnership": {},
+  "uiOwnershipBaseline": {
+    "takenAt": "2026-10-26T06:56:25.908Z",
+    "count": 0
+  },
+  "lastAiWriteAt": "2026-10-28T05:39:28.832Z",
+  "planValidated": "addition"
+}

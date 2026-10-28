@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "d4e49b30-04ff-0e98-4c4b-634a8a620896",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "WaterBall_Impact_Side_9f",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "38bb31e9-ff3f-365f-1c53-f0185a494d6f",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

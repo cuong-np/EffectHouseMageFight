@@ -1,0 +1,48 @@
+%YAML 1.1
+--- !TextureDelegate &1
+name: !<str> WaterBall_Impact_Side_9f
+guid: {a: 5314627862974489169, b: 18289450540382755250}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 4675739238278602324, b: 10688071011896352180}
+  properties:
+    __class: Map
+    JSClassName: !<str> GifTextureProvider
+    fps: 9
+    gifAsset: {localId: 1, path: 38bb31e9-ff3f-365f-1c53-f0185a494d6f--38bb31e9-ff3f-365f-1c53-f0185a494d6f.gifasset}
+    loopCount: 1
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: true
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1
+delegateData:
+  __class: Map

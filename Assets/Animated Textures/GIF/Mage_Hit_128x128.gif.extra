@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "13ad522b-5e9e-b063-36b3-5e7fbdeab418",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "Mage_Hit_128x128",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\AppData\\Local\\Temp\\Mage_Hit_128x128.gif",
+    "references": []
+  }
+]

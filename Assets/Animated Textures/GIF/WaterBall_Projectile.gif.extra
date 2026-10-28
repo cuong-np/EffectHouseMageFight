@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "c6db667d-a922-6e4b-e8c8-2d993599150c",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "WaterBall_Projectile",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\GIF\\WaterBall_Projectile.gif",
+    "references": []
+  }
+]

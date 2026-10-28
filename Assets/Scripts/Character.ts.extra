@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "f604a920-ab10-e69e-95ff-d568b017faed",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "Character",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\Character.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

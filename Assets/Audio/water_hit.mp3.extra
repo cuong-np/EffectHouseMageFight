@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "3ebfccc4-3ecd-3b54-76a6-ec31952b5bef",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "water_hit",
+    "version": "0.1.0",
+    "rttiType": "AudioAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "mccState": "SUCCESS",
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\Downloads\\water_hit.mp3",
+    "references": []
+  }
+]

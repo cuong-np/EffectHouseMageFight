@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "df97573e-2af4-3f42-74d0-911d399b75ac",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Managers",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "4318f8de-c126-f9e8-b93a-4b9857ee20af",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "ImpactDirectionPresentation",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\ImpactDirectionPresentation.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

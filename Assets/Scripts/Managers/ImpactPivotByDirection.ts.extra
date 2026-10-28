@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "426409fd-6a3e-82eb-10c5-5227af12d2d3",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "ImpactPivotByDirection",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\Managers\\ImpactPivotByDirection.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

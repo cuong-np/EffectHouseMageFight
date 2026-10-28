@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "6002b65b-0ef3-0734-66b7-91bf87f9c98f",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "attack_source_128x128",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "31144100-9cba-c68a-4870-86cf36e3ba1a",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "ef9bfcde-6e62-e51e-f0f2-662c60d111d1",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "Mage_Idle",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "3b82a289-686a-d37e-12b4-42c874371a38",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

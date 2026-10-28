@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "f8269c51-cb22-5ab0-abc4-74e3382bab22",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "UIManager",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\UIManager.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

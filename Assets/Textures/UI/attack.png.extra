@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "5e0f54d3-a1c2-5c64-44af-73153a61953a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "attack",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\Downloads\\attack.png",
+    "references": []
+  }
+]

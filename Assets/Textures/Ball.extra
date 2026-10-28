@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "6f2d9696-b98a-4cde-c94f-78343bb04af8",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Ball",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\AI\\SpriteSheep\\output\\WaterBall\\water_bullet_deform_16f\\sprite",
+    "references": []
+  }
+]

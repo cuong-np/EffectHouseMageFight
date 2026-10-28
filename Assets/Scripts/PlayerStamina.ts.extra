@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "26c7cb07-e070-fdf1-627a-bda156b6f7dd",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "PlayerStamina",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\PlayerStamina.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

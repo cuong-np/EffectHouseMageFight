@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "779ffd34-76d7-6399-b6bc-6df44e440007",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "sfx_success",
+    "version": "0.1.0",
+    "rttiType": "AudioAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "mccState": "SUCCESS",
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Resources\\ask-ai\\game-assets\\sounds\\sfx_success.mp3",
+    "references": []
+  }
+]

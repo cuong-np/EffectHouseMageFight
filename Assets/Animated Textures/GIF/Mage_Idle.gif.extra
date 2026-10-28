@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "3b82a289-686a-d37e-12b4-42c874371a38",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "Mage_Idle",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\GIF Texture\\Mage_Idle.gif",
+    "references": []
+  }
+]

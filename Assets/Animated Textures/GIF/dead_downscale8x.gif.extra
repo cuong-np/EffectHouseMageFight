@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "537ceb88-3976-ef01-ccbe-0a7159650ce8",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "dead_downscale8x",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\AI\\SpriteSheep\\output\\Mage\\dead_2026-10-25_13-21-15\\dead_downscale8x.gif",
+    "references": []
+  }
+]

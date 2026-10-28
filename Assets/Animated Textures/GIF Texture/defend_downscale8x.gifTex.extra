@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "09ef738b-6583-20e0-0760-1833ae209a50",
+      "b": ""
+    },
+    "extraType": "ResItemGifTexture",
+    "name": "defend_downscale8x",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Program Files\\Effect House\\Plugins\\Gif@2.0.31\\resources\\builtinJSAssets\\default.gifTex",
+    "references": [
+      {
+        "guid": "3edd6a4d-eb71-6182-5386-e4a723a27425",
+        "propertyName": "gifAsset"
+      }
+    ]
+  }
+]

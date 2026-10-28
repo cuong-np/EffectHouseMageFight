@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "179fafde-9413-a233-563a-01f8dced274f",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "GameConfig",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\Tiktok\\helloword\\Assets\\Scripts\\GameConfig.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

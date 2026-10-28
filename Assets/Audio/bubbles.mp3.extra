@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "f843f916-f15b-6f12-11d8-113b80fee77f",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "bubbles",
+    "version": "0.1.0",
+    "rttiType": "AudioAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "mccState": "SUCCESS",
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\nguye\\Downloads\\bubbles.mp3",
+    "references": []
+  }
+]

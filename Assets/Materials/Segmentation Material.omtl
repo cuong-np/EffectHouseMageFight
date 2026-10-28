@@ -1,0 +1,162 @@
+{
+    "Shader": "Segmentation",
+    "Pass": [
+        {
+            "Ausl": "a1",
+            "Cull": "Back",
+            "DepthWriteEnable": "Off",
+            "DepthTestEnable": "Off",
+            "BlendMode": "Normal_v2",
+            "BlendModeOptions": [
+                "Normal_v2",
+                "Darken_v2",
+                "Multiply_v2",
+                "Lighten_v2",
+                "Screen_v2",
+                "Linear_Dodge_v2",
+                "Color_Burn_v2",
+                "Color_Dodge_v2",
+                "Overlay_v2",
+                "Soft_Light_v2",
+                "Difference_v2",
+                "Exclusion_v2"
+            ],
+            "ZTest": "LessEqual"
+        }
+    ],
+    "RenderQueue": 3000,
+    "API": ""
+}
+---ENDJSON
+
+---BEGIN UIPROPERTY
+
+    $Segmentation$
+    u_Translation (omtl_translation, Vec4, HideInInspector) = [0.000000, 0.000000, 0.000000, 0.000000]
+    u_Scale (omtl_scale, Vec4, HideInInspector) = [1.000000, 1.000000, 1.000000, 1.000000]
+
+    $omtl_segmentation$
+    _SegTex (omtl_seg_tex, 2D) = "Default_Material_Texture_Error"
+
+    $omtl_albedo$
+    _AlbedoColor (omtl_color, Color) = [1.000000, 1.000000, 1.000000, 1.000000]
+    Albedo (omtl_texture_on, Defs) = 1
+    [Albedo] _MainTex (omtl_texture, 2D) = "Default_Face_Mask_OutputV2"
+    [_MainTex] _EnableAlphaTest (omtl_alpha_test, Defs) = 0
+    [_EnableAlphaTest] _AlbedoCutoff (omtl_cutoff, Range(0.000000, 1.000000)) = 0.500000
+
+    $omtl_advancedsetting$
+    Advanced (omtl_advancedsetting, Defs) = 1
+    [Advanced] _SegRadius (omtl_seg_radius, Range(0.100000, 1.000000)) = 0.500000
+    [Advanced] _SegSoftness (omtl_seg_softness, Range(0.100000, 1.000000)) = 0.500000
+
+---END UIPROPERTY
+
+---BEGIN a1
+
+#version 300 es
+#pragma only_renderers glsl30 metal
+
+#pragma shader_feature DEFINE_BUILTIN_MAT_UNIFORMS
+
+// Attributes: attributes in vertex shader
+#pragma input attributes
+    in vec3 attPosition;
+    in vec2 attTexcoord0;    
+#pragma end
+
+// Varyings: outputs of vertex shader, inputs for fragment shader
+#pragma varying varyings
+    mediump vec3 v_posWS;
+    highp vec2 v_uv0;
+#pragma end
+
+// Vertex stage section in vertex shader
+#pragma vs attributes varyings
+    precision highp float;
+    uniform mat4 u_MVP;
+    uniform highp mat4 u_Model;
+    uniform vec4 u_Translation;
+    uniform vec4 u_Scale;
+#pragma end
+
+// Output: output targets in fragment shader
+#pragma output targets
+    out highp vec4 o_fragColor;
+#pragma end
+
+// Fragment stage section in fragment shader
+#pragma fs varyings targets
+    precision highp float;
+
+    uniform lowp sampler2D u_FBOTexture;
+    uniform mediump mat4 u_View;
+    uniform mediump mat4 u_Projection;
+    #include "Packages/core/blend.glsl"
+
+    uniform sampler2D _SegTex;
+    uniform vec4 _AlbedoColor ;
+
+    #ifdef Albedo
+    uniform sampler2D _MainTex  ;
+    #endif
+
+    #ifdef _EnableAlphaTest
+    uniform lowp float _AlbedoCutoff;
+    #endif
+    
+    #ifdef Advanced
+    uniform float _SegRadius ;
+    uniform float _SegSoftness ;
+    #endif
+#pragma end
+
+// Entry function in vertex shader, must match "void vertex()"
+void vertex() 
+{
+    vec4 scale = vec4(
+        length(vec3(u_MVP[0][0], u_MVP[1][0], u_MVP[2][0])),
+        length(vec3(u_MVP[0][1], u_MVP[1][1], u_MVP[2][1])),
+        1.0,
+        1.0
+    );
+    mat4 modifiedMVP = mat4(
+        u_MVP[0],
+        u_MVP[1],
+        u_MVP[2],
+        vec4(u_MVP[3][0] / u_Scale.x, u_MVP[3][1] / u_Scale.y, u_MVP[3][2], u_MVP[3][3])
+    );
+    gl_Position = (modifiedMVP * vec4(attPosition, 1.0) + u_Translation * scale) * u_Scale;
+    v_uv0 = attTexcoord0;
+    v_posWS = (u_Model * vec4(attPosition, 1.0)).xyz;
+}
+
+// Entry function in fragment shader, must match "void fragment()"
+void fragment()
+{
+    vec2 uv = vec2(v_uv0.x, v_uv0.y);   // FIXME: RT uv flip
+    vec4 segColor = texture(_SegTex, uv);
+    vec4 baseColor = _AlbedoColor ;
+
+    #ifdef Albedo
+        baseColor = baseColor * texture(_MainTex, uv);
+    #endif
+
+    float segResult = segColor.r;
+    #ifdef Advanced
+        float flag = step(0.0, _SegSoftness  - _SegRadius );
+        float usedParam = flag * _SegRadius  + (1.0 - flag) * _SegSoftness ;
+        float smoothResult = clamp(segColor.r - (1.0 - _SegRadius ), 0.0, 1.0) / usedParam;
+        segResult = smoothResult;
+    #endif
+
+    float alpha = clamp(clamp(baseColor.a, 0.0, 1.0) - (1.0 - clamp(segResult, 0.0, 1.0)), 0.0, 1.0);
+    #ifdef _EnableAlphaTest
+    if (alpha < _AlbedoCutoff)
+        discard;
+    #endif
+    vec4 finalColor = vec4(baseColor.r, baseColor.g, baseColor.b, alpha);
+    o_fragColor = ApplyBlendMode(finalColor);
+}
+
+---END a1

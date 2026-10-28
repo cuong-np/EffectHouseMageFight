@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "b02c25bc-70c8-4af2-6df9-b8d30d8332c7",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Btn_OtherButton_Square07",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "D:\\Project\\GameSourcecode\\UnityAsset\\Assets\\GUI PRO Kit - Casual Game\\ResourcesData\\Sprite\\Component\\Button\\Btn_OtherButton_Square07.png",
+    "references": []
+  }
+]

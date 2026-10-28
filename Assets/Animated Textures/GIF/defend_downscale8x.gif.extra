@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "3edd6a4d-eb71-6182-5386-e4a723a27425",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "defend_downscale8x",
+    "version": "0.1.0",
+    "rttiType": "GifAsset",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "D:\\AI\\SpriteSheep\\output\\Mage\\defend_2026-10-25_13-21-15\\defend_downscale8x.gif",
+    "references": []
+  }
+]
